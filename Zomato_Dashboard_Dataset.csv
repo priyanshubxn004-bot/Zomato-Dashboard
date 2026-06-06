@@ -1,0 +1,1001 @@
+Order_ID,Order_Date,City,Restaurant_Name,Cuisine,Customer_Age,Gender,Veg_NonVeg,Order_Amount,Delivery_Time,Rating,Payment_Mode,Delivery_Partner,Order_Status,Distance_km,Quantity
+1,2025-03-24,Mumbai,Urban Tadka,North Indian,20,Male,Non-Veg,387,47,3.0,UPI,Karan,Cancelled,2.0,1
+2,2025-05-22,Bangalore,Burger Hub,Biryani,21,Male,Veg,1774,18,4.9,UPI,Mohit,Delivered,5.1,2
+3,2025-05-19,Delhi,Royal Biryani,Biryani,44,Male,Veg,2489,55,3.0,UPI,Mohit,Delivered,8.9,5
+4,2025-02-22,Bangalore,Urban Tadka,Italian,32,Female,Non-Veg,1377,30,4.5,Card,Rahul,Delivered,9.0,5
+5,2025-05-07,Jaipur,Chinese Bowl,Italian,37,Male,Veg,2246,41,2.9,Cash,Rahul,Cancelled,6.9,6
+6,2025-01-20,Hyderabad,Tandoori Nights,Italian,40,Female,Non-Veg,2018,19,4.6,Cash,Karan,Delivered,1.8,6
+7,2025-03-21,Ahmedabad,Chinese Bowl,Italian,40,Female,Non-Veg,242,44,3.4,Card,Aman,Cancelled,1.8,3
+8,2025-02-03,Ahmedabad,Food Factory,Fast Food,30,Female,Veg,831,43,3.5,Cash,Rahul,Cancelled,13.1,3
+9,2025-06-30,Bangalore,Tandoori Nights,Fast Food,25,Male,Veg,871,24,3.1,UPI,Aman,Cancelled,12.6,2
+10,2025-03-09,Jaipur,Burger Hub,Chinese,31,Female,Non-Veg,664,59,4.6,Card,Arjun,Delivered,7.4,6
+11,2025-05-24,Bangalore,Urban Tadka,Fast Food,30,Male,Non-Veg,1790,18,3.0,UPI,Karan,Delivered,2.5,5
+12,2025-01-14,Delhi,Burger Hub,Biryani,22,Male,Non-Veg,254,19,4.7,Card,Karan,Delivered,9.9,3
+13,2025-06-04,Jaipur,Chinese Bowl,North Indian,21,Female,Non-Veg,2117,45,3.3,UPI,Aman,Cancelled,11.4,4
+14,2025-06-27,Mumbai,Burger Hub,Chinese,34,Female,Veg,2374,16,4.4,Cash,Arjun,Delivered,10.7,3
+15,2025-05-13,Jaipur,Spice Kitchen,Italian,42,Male,Non-Veg,1063,54,4.5,UPI,Rahul,Cancelled,11.4,2
+16,2025-02-21,Pune,Chinese Bowl,Italian,41,Male,Veg,1294,45,3.1,Card,Mohit,Cancelled,7.3,6
+17,2025-03-31,Jaipur,Pizza Point,Chinese,21,Male,Non-Veg,955,36,3.0,Card,Mohit,Delivered,7.7,6
+18,2025-03-30,Hyderabad,Pizza Point,North Indian,30,Male,Non-Veg,881,42,4.5,Cash,Aman,Cancelled,7.5,6
+19,2025-01-22,Ahmedabad,Spice Kitchen,Chinese,22,Male,Veg,2056,56,2.9,Card,Karan,Cancelled,3.2,5
+20,2025-02-03,Delhi,Burger Hub,North Indian,34,Male,Non-Veg,947,28,2.6,UPI,Vikas,Delivered,11.7,3
+21,2025-03-08,Pune,Urban Tadka,Chinese,19,Female,Non-Veg,2266,41,4.6,Card,Rahul,Delivered,8.3,1
+22,2025-04-23,Hyderabad,Spice Kitchen,Biryani,18,Male,Veg,729,45,4.0,UPI,Mohit,Delivered,5.6,5
+23,2025-05-16,Pune,Chinese Bowl,North Indian,35,Male,Veg,933,32,2.6,UPI,Mohit,Cancelled,8.9,1
+24,2025-04-24,Jaipur,Food Factory,Italian,32,Female,Veg,2293,31,4.8,UPI,Karan,Delivered,6.8,4
+25,2025-04-24,Jaipur,Pizza Point,Chinese,31,Male,Veg,1390,22,4.7,UPI,Arjun,Cancelled,3.0,2
+26,2025-04-30,Mumbai,Pizza Point,Fast Food,33,Male,Veg,811,60,3.6,Card,Karan,Cancelled,6.9,3
+27,2025-03-23,Delhi,Tandoori Nights,North Indian,28,Female,Non-Veg,224,39,3.3,Card,Vikas,Delivered,2.6,2
+28,2025-01-27,Delhi,Royal Biryani,Italian,19,Male,Non-Veg,680,42,4.6,Card,Vikas,Cancelled,3.1,5
+29,2025-05-27,Bangalore,Tandoori Nights,North Indian,26,Male,Veg,1892,19,3.2,UPI,Arjun,Delivered,12.2,1
+30,2025-06-05,Hyderabad,Food Factory,North Indian,26,Male,Non-Veg,197,36,5.0,Cash,Vikas,Delivered,1.6,6
+31,2025-03-03,Delhi,Spice Kitchen,Italian,19,Male,Veg,1427,55,3.3,UPI,Vikas,Cancelled,8.0,2
+32,2025-03-11,Jaipur,Burger Hub,Italian,19,Male,Veg,2221,50,4.9,Card,Karan,Delivered,14.1,1
+33,2025-06-18,Hyderabad,Urban Tadka,Fast Food,35,Female,Non-Veg,1031,29,3.4,Card,Arjun,Delivered,6.7,3
+34,2025-01-14,Hyderabad,Spice Kitchen,North Indian,20,Female,Non-Veg,818,18,2.7,Cash,Mohit,Cancelled,9.4,6
+35,2025-03-17,Delhi,Chinese Bowl,Chinese,23,Female,Non-Veg,164,31,3.4,Cash,Mohit,Cancelled,4.4,3
+36,2025-02-25,Jaipur,Spice Kitchen,North Indian,28,Female,Veg,2094,32,3.8,UPI,Rahul,Delivered,2.3,1
+37,2025-02-06,Bangalore,Burger Hub,Fast Food,18,Female,Non-Veg,1103,20,4.0,Card,Rahul,Cancelled,11.7,6
+38,2025-05-07,Mumbai,Royal Biryani,Biryani,38,Male,Veg,2251,55,3.6,Card,Mohit,Delivered,13.7,5
+39,2025-05-26,Hyderabad,Burger Hub,Biryani,43,Male,Veg,277,17,2.8,Cash,Aman,Cancelled,12.7,5
+40,2025-01-13,Ahmedabad,Burger Hub,Biryani,39,Male,Non-Veg,1230,15,3.6,UPI,Arjun,Delivered,10.2,1
+41,2025-05-02,Jaipur,Pizza Point,Italian,25,Male,Veg,2035,46,4.6,UPI,Karan,Cancelled,11.7,5
+42,2025-06-11,Ahmedabad,Food Factory,North Indian,37,Male,Non-Veg,1190,56,4.4,Cash,Mohit,Delivered,1.2,1
+43,2025-05-05,Jaipur,Pizza Point,Chinese,39,Female,Non-Veg,2265,33,3.7,Cash,Aman,Delivered,5.4,1
+44,2025-05-02,Delhi,Royal Biryani,Fast Food,20,Female,Non-Veg,1734,28,4.8,UPI,Aman,Delivered,3.0,5
+45,2025-03-09,Jaipur,Spice Kitchen,Biryani,44,Female,Veg,1645,29,3.7,Cash,Karan,Delivered,3.2,4
+46,2025-06-24,Bangalore,Urban Tadka,Italian,41,Male,Non-Veg,1558,39,3.3,Cash,Aman,Cancelled,11.5,4
+47,2025-01-31,Mumbai,Burger Hub,Italian,26,Female,Veg,1759,39,5.0,Card,Aman,Cancelled,14.0,3
+48,2025-01-13,Jaipur,Pizza Point,North Indian,44,Female,Veg,1171,32,3.6,Cash,Rahul,Cancelled,12.0,4
+49,2025-01-08,Hyderabad,Urban Tadka,Biryani,35,Male,Veg,352,41,3.6,UPI,Arjun,Cancelled,7.8,5
+50,2025-02-02,Mumbai,Chinese Bowl,Fast Food,28,Female,Non-Veg,1197,56,3.2,Card,Rahul,Cancelled,7.8,6
+51,2025-04-11,Delhi,Spice Kitchen,Chinese,20,Male,Non-Veg,2404,29,3.6,Cash,Karan,Cancelled,3.0,2
+52,2025-03-04,Delhi,Spice Kitchen,Italian,35,Male,Non-Veg,1129,38,3.1,Card,Rahul,Delivered,11.5,4
+53,2025-04-09,Bangalore,Food Factory,Fast Food,26,Female,Veg,2190,32,3.9,Cash,Rahul,Delivered,2.3,2
+54,2025-04-09,Bangalore,Chinese Bowl,Fast Food,27,Male,Veg,282,42,4.3,Cash,Mohit,Cancelled,1.0,4
+55,2025-05-16,Hyderabad,Chinese Bowl,Fast Food,25,Male,Veg,782,24,3.8,Card,Aman,Cancelled,2.2,1
+56,2025-01-01,Hyderabad,Spice Kitchen,Chinese,36,Male,Non-Veg,674,55,3.1,Card,Karan,Delivered,2.4,3
+57,2025-05-15,Pune,Food Factory,Fast Food,26,Male,Veg,192,49,3.3,Cash,Vikas,Cancelled,10.0,2
+58,2025-05-02,Pune,Food Factory,Biryani,25,Male,Non-Veg,1409,18,2.6,Cash,Arjun,Cancelled,2.1,2
+59,2025-06-20,Bangalore,Tandoori Nights,Chinese,33,Male,Non-Veg,1872,38,4.2,UPI,Aman,Cancelled,11.3,5
+60,2025-01-18,Mumbai,Chinese Bowl,Chinese,27,Male,Veg,2055,29,3.2,Cash,Aman,Cancelled,9.5,2
+61,2025-05-05,Bangalore,Burger Hub,Biryani,22,Female,Veg,1022,16,4.9,UPI,Karan,Delivered,10.9,2
+62,2025-04-11,Bangalore,Tandoori Nights,North Indian,20,Male,Non-Veg,931,26,4.1,Card,Arjun,Cancelled,1.4,6
+63,2025-04-07,Hyderabad,Tandoori Nights,Italian,32,Male,Veg,161,20,3.2,Cash,Karan,Delivered,8.9,2
+64,2025-04-08,Jaipur,Royal Biryani,Fast Food,20,Male,Non-Veg,951,38,3.9,Cash,Rahul,Cancelled,6.1,4
+65,2025-01-08,Ahmedabad,Urban Tadka,Chinese,43,Female,Veg,1688,17,3.7,UPI,Vikas,Delivered,11.5,5
+66,2025-03-28,Jaipur,Royal Biryani,Italian,37,Male,Non-Veg,1446,32,3.2,Card,Mohit,Delivered,1.3,2
+67,2025-01-28,Bangalore,Chinese Bowl,Fast Food,43,Female,Non-Veg,2171,23,4.8,UPI,Aman,Cancelled,12.5,2
+68,2025-06-05,Mumbai,Tandoori Nights,Italian,32,Female,Veg,2246,27,3.5,UPI,Rahul,Cancelled,1.9,1
+69,2025-05-04,Pune,Tandoori Nights,Chinese,31,Male,Veg,1234,54,2.7,UPI,Karan,Cancelled,14.8,4
+70,2025-02-14,Mumbai,Spice Kitchen,Fast Food,32,Male,Veg,1353,33,3.2,Cash,Vikas,Cancelled,11.3,2
+71,2025-04-23,Mumbai,Spice Kitchen,Chinese,25,Male,Non-Veg,921,35,2.7,Cash,Rahul,Delivered,10.1,1
+72,2025-06-17,Bangalore,Burger Hub,North Indian,18,Female,Veg,1986,38,2.6,Cash,Rahul,Delivered,1.7,5
+73,2025-05-30,Mumbai,Pizza Point,Italian,34,Male,Non-Veg,1214,57,4.9,UPI,Arjun,Cancelled,4.0,3
+74,2025-03-29,Mumbai,Burger Hub,Chinese,26,Male,Veg,196,35,3.5,Cash,Rahul,Cancelled,2.1,1
+75,2025-05-07,Pune,Chinese Bowl,North Indian,31,Male,Non-Veg,2403,24,4.1,UPI,Arjun,Delivered,6.6,3
+76,2025-04-15,Jaipur,Royal Biryani,Fast Food,19,Female,Non-Veg,1846,41,2.5,Cash,Arjun,Delivered,6.5,4
+77,2025-02-22,Delhi,Urban Tadka,Chinese,31,Male,Veg,1813,51,4.7,Cash,Rahul,Delivered,1.2,5
+78,2025-02-06,Ahmedabad,Urban Tadka,North Indian,36,Female,Veg,747,37,3.2,Card,Rahul,Delivered,2.5,4
+79,2025-02-20,Jaipur,Spice Kitchen,North Indian,33,Female,Veg,1738,20,4.8,Card,Arjun,Delivered,10.0,2
+80,2025-06-08,Bangalore,Food Factory,Fast Food,23,Male,Veg,1787,48,2.9,Cash,Aman,Delivered,4.5,6
+81,2025-02-19,Delhi,Burger Hub,Italian,21,Female,Non-Veg,2403,55,4.4,Card,Karan,Cancelled,9.2,4
+82,2025-04-10,Ahmedabad,Tandoori Nights,Fast Food,34,Female,Veg,245,15,4.0,Cash,Karan,Delivered,7.3,5
+83,2025-04-28,Hyderabad,Spice Kitchen,Fast Food,30,Male,Veg,676,37,3.6,UPI,Karan,Delivered,1.6,2
+84,2025-01-22,Ahmedabad,Tandoori Nights,Biryani,20,Male,Non-Veg,707,16,4.6,Card,Arjun,Delivered,3.7,4
+85,2025-03-15,Hyderabad,Spice Kitchen,Chinese,20,Female,Non-Veg,800,35,4.7,Cash,Karan,Delivered,4.6,4
+86,2025-02-23,Pune,Royal Biryani,Biryani,34,Male,Non-Veg,1674,17,3.0,Cash,Rahul,Cancelled,10.5,4
+87,2025-02-13,Hyderabad,Royal Biryani,North Indian,42,Male,Non-Veg,2005,50,3.8,Card,Aman,Cancelled,14.9,6
+88,2025-04-11,Ahmedabad,Tandoori Nights,Italian,30,Female,Veg,1625,36,4.4,Cash,Rahul,Delivered,9.6,1
+89,2025-03-17,Hyderabad,Royal Biryani,Italian,38,Female,Veg,288,29,2.9,Card,Arjun,Cancelled,6.8,3
+90,2025-01-13,Mumbai,Chinese Bowl,Chinese,37,Male,Veg,372,15,3.9,Cash,Aman,Cancelled,8.5,4
+91,2025-05-30,Jaipur,Spice Kitchen,Chinese,29,Female,Veg,701,15,4.8,UPI,Arjun,Delivered,7.3,1
+92,2025-06-13,Mumbai,Royal Biryani,Fast Food,43,Female,Veg,379,56,4.6,Cash,Mohit,Cancelled,9.4,5
+93,2025-05-07,Mumbai,Spice Kitchen,North Indian,19,Male,Veg,1812,26,3.1,UPI,Aman,Delivered,9.6,6
+94,2025-02-20,Mumbai,Urban Tadka,Chinese,34,Female,Veg,2233,34,2.7,Card,Aman,Cancelled,11.0,1
+95,2025-04-07,Hyderabad,Urban Tadka,Fast Food,20,Female,Veg,1075,21,3.2,Card,Aman,Delivered,5.7,6
+96,2025-06-27,Hyderabad,Royal Biryani,North Indian,26,Female,Non-Veg,1360,56,4.8,UPI,Aman,Delivered,3.4,2
+97,2025-02-21,Mumbai,Tandoori Nights,Chinese,30,Female,Veg,1704,55,4.8,Card,Mohit,Cancelled,7.6,5
+98,2025-06-28,Delhi,Burger Hub,Fast Food,41,Male,Non-Veg,1018,40,4.1,UPI,Mohit,Delivered,3.0,1
+99,2025-01-29,Delhi,Spice Kitchen,Italian,22,Male,Veg,320,23,4.2,Card,Aman,Delivered,11.3,1
+100,2025-06-01,Hyderabad,Tandoori Nights,Chinese,44,Male,Non-Veg,588,30,3.0,UPI,Aman,Delivered,14.3,6
+101,2025-01-23,Hyderabad,Royal Biryani,Fast Food,21,Male,Veg,989,33,3.3,Cash,Vikas,Delivered,5.9,3
+102,2025-01-13,Ahmedabad,Tandoori Nights,Italian,42,Female,Non-Veg,276,41,2.6,Card,Aman,Cancelled,7.6,1
+103,2025-05-18,Pune,Food Factory,North Indian,36,Female,Veg,1936,15,3.8,Cash,Aman,Delivered,5.9,1
+104,2025-05-06,Ahmedabad,Spice Kitchen,Fast Food,36,Female,Non-Veg,800,33,4.5,Card,Rahul,Cancelled,3.3,6
+105,2025-01-21,Bangalore,Pizza Point,Italian,29,Male,Non-Veg,1766,20,3.6,Card,Aman,Cancelled,3.9,3
+106,2025-04-20,Pune,Spice Kitchen,Fast Food,38,Male,Non-Veg,669,49,4.0,Card,Mohit,Delivered,5.9,3
+107,2025-05-14,Mumbai,Chinese Bowl,Biryani,41,Female,Veg,2047,43,4.2,Cash,Mohit,Delivered,2.8,4
+108,2025-06-14,Ahmedabad,Food Factory,Biryani,24,Female,Non-Veg,783,24,4.9,Card,Vikas,Cancelled,3.3,3
+109,2025-02-18,Jaipur,Pizza Point,Chinese,39,Male,Veg,1723,24,5.0,Cash,Arjun,Cancelled,7.1,2
+110,2025-01-28,Ahmedabad,Pizza Point,Italian,24,Female,Non-Veg,288,15,3.5,Cash,Arjun,Delivered,8.0,6
+111,2025-03-17,Bangalore,Burger Hub,Chinese,26,Female,Veg,1142,42,4.3,Card,Arjun,Cancelled,12.8,6
+112,2025-06-17,Hyderabad,Food Factory,Chinese,38,Male,Non-Veg,1921,35,3.1,Card,Aman,Cancelled,4.4,4
+113,2025-06-11,Mumbai,Royal Biryani,Fast Food,33,Female,Veg,1826,48,4.2,UPI,Arjun,Cancelled,11.9,4
+114,2025-05-06,Delhi,Burger Hub,Italian,35,Male,Veg,968,48,3.4,Card,Karan,Delivered,11.0,5
+115,2025-01-05,Ahmedabad,Tandoori Nights,Biryani,28,Female,Non-Veg,1010,58,3.0,Card,Aman,Cancelled,9.9,3
+116,2025-03-12,Bangalore,Urban Tadka,North Indian,18,Male,Non-Veg,1872,55,4.2,Cash,Mohit,Cancelled,2.5,3
+117,2025-04-13,Pune,Food Factory,Fast Food,32,Male,Veg,679,19,4.5,Card,Rahul,Cancelled,10.0,6
+118,2025-02-27,Hyderabad,Spice Kitchen,Italian,39,Female,Non-Veg,1355,50,4.1,Cash,Vikas,Delivered,4.7,4
+119,2025-06-25,Jaipur,Urban Tadka,Chinese,33,Male,Non-Veg,1616,30,4.1,Cash,Karan,Cancelled,7.0,6
+120,2025-01-22,Ahmedabad,Tandoori Nights,Chinese,27,Female,Veg,499,51,4.8,UPI,Mohit,Cancelled,9.9,1
+121,2025-06-18,Delhi,Food Factory,North Indian,38,Female,Non-Veg,565,52,2.9,UPI,Rahul,Cancelled,5.9,2
+122,2025-02-23,Bangalore,Spice Kitchen,Biryani,40,Male,Non-Veg,958,46,4.2,Card,Aman,Cancelled,10.4,1
+123,2025-05-23,Delhi,Royal Biryani,Fast Food,25,Male,Non-Veg,2169,50,2.6,Cash,Rahul,Cancelled,4.5,2
+124,2025-05-19,Pune,Burger Hub,Chinese,44,Female,Non-Veg,2454,46,4.2,Cash,Vikas,Cancelled,6.9,6
+125,2025-01-20,Mumbai,Tandoori Nights,North Indian,18,Male,Non-Veg,534,47,3.7,UPI,Aman,Delivered,11.1,6
+126,2025-02-02,Jaipur,Pizza Point,Italian,28,Female,Veg,1313,42,3.4,Cash,Mohit,Delivered,12.6,3
+127,2025-04-01,Hyderabad,Chinese Bowl,Fast Food,28,Female,Non-Veg,983,56,3.7,UPI,Vikas,Delivered,5.4,3
+128,2025-02-02,Pune,Pizza Point,North Indian,30,Female,Veg,1782,34,2.8,UPI,Rahul,Cancelled,9.5,6
+129,2025-01-16,Hyderabad,Urban Tadka,Biryani,22,Male,Veg,311,57,4.1,Card,Rahul,Delivered,10.3,1
+130,2025-04-18,Hyderabad,Pizza Point,North Indian,29,Male,Non-Veg,2452,60,3.1,Cash,Rahul,Cancelled,1.5,1
+131,2025-04-21,Pune,Burger Hub,Fast Food,36,Male,Veg,1874,51,4.2,Cash,Karan,Delivered,1.2,4
+132,2025-06-02,Pune,Spice Kitchen,Fast Food,42,Female,Veg,489,56,3.7,UPI,Arjun,Delivered,7.0,1
+133,2025-06-25,Ahmedabad,Pizza Point,North Indian,24,Male,Veg,2084,16,3.2,Card,Rahul,Cancelled,11.3,2
+134,2025-01-13,Jaipur,Spice Kitchen,North Indian,27,Female,Non-Veg,1190,18,4.3,UPI,Aman,Delivered,13.4,6
+135,2025-06-08,Delhi,Urban Tadka,Italian,27,Male,Non-Veg,394,35,3.4,Card,Arjun,Cancelled,7.6,2
+136,2025-02-07,Hyderabad,Pizza Point,Italian,38,Male,Non-Veg,2103,39,4.4,Cash,Vikas,Cancelled,5.1,1
+137,2025-06-09,Ahmedabad,Tandoori Nights,Biryani,41,Male,Veg,1414,52,3.6,UPI,Karan,Cancelled,10.6,5
+138,2025-03-01,Hyderabad,Chinese Bowl,Italian,40,Male,Non-Veg,1227,32,3.6,Card,Aman,Cancelled,12.7,5
+139,2025-02-07,Jaipur,Chinese Bowl,Italian,35,Male,Non-Veg,1713,27,4.5,Card,Rahul,Cancelled,9.5,6
+140,2025-04-12,Bangalore,Food Factory,Italian,36,Male,Non-Veg,2033,49,2.7,Cash,Aman,Delivered,6.6,5
+141,2025-03-08,Hyderabad,Tandoori Nights,Fast Food,34,Male,Veg,1021,27,2.7,Card,Vikas,Cancelled,9.1,3
+142,2025-04-14,Hyderabad,Spice Kitchen,Chinese,19,Female,Non-Veg,584,38,4.1,UPI,Rahul,Cancelled,9.4,3
+143,2025-03-13,Pune,Burger Hub,North Indian,19,Male,Non-Veg,2473,28,3.2,Cash,Karan,Delivered,14.3,5
+144,2025-06-05,Mumbai,Royal Biryani,North Indian,28,Male,Veg,1699,20,2.6,UPI,Mohit,Cancelled,13.2,4
+145,2025-05-05,Hyderabad,Pizza Point,Biryani,38,Female,Veg,518,31,3.3,UPI,Arjun,Delivered,14.4,6
+146,2025-05-10,Bangalore,Spice Kitchen,Fast Food,45,Male,Non-Veg,1113,29,2.9,Cash,Vikas,Delivered,13.6,1
+147,2025-01-13,Jaipur,Chinese Bowl,North Indian,21,Male,Non-Veg,173,27,4.2,Cash,Mohit,Cancelled,11.6,1
+148,2025-05-01,Jaipur,Tandoori Nights,Italian,30,Male,Non-Veg,2121,39,2.9,UPI,Rahul,Delivered,7.6,2
+149,2025-01-10,Mumbai,Food Factory,North Indian,37,Female,Veg,1981,21,4.8,Cash,Aman,Delivered,7.3,3
+150,2025-03-24,Hyderabad,Food Factory,Fast Food,21,Female,Veg,1509,29,4.3,UPI,Arjun,Cancelled,8.7,2
+151,2025-04-23,Hyderabad,Spice Kitchen,Italian,31,Female,Veg,787,16,3.2,Cash,Vikas,Delivered,4.6,1
+152,2025-03-23,Bangalore,Chinese Bowl,North Indian,22,Male,Veg,2443,45,4.6,UPI,Vikas,Delivered,14.6,4
+153,2025-03-08,Mumbai,Food Factory,North Indian,30,Female,Non-Veg,814,18,4.6,Cash,Rahul,Delivered,7.2,5
+154,2025-03-29,Pune,Spice Kitchen,Fast Food,18,Female,Veg,1624,42,2.6,Cash,Rahul,Cancelled,9.0,2
+155,2025-02-16,Pune,Food Factory,Chinese,24,Male,Veg,2179,32,2.9,UPI,Mohit,Delivered,9.2,2
+156,2025-01-03,Delhi,Urban Tadka,North Indian,34,Female,Non-Veg,1304,55,4.7,Cash,Aman,Delivered,6.7,4
+157,2025-02-04,Hyderabad,Royal Biryani,Chinese,23,Female,Veg,819,59,3.4,Card,Aman,Cancelled,8.3,4
+158,2025-05-13,Delhi,Pizza Point,Italian,40,Male,Non-Veg,1712,51,4.4,UPI,Vikas,Delivered,14.4,4
+159,2025-04-25,Pune,Burger Hub,Biryani,43,Male,Veg,1147,20,3.1,UPI,Rahul,Delivered,5.4,5
+160,2025-01-08,Delhi,Pizza Point,Chinese,26,Male,Non-Veg,2291,30,4.3,UPI,Vikas,Delivered,11.0,1
+161,2025-03-11,Delhi,Chinese Bowl,Fast Food,36,Female,Veg,649,22,3.5,UPI,Mohit,Delivered,13.1,2
+162,2025-06-21,Pune,Chinese Bowl,Fast Food,23,Male,Non-Veg,1872,53,4.6,Card,Aman,Cancelled,14.6,1
+163,2025-04-03,Jaipur,Urban Tadka,Chinese,44,Female,Non-Veg,2461,35,4.5,Card,Aman,Cancelled,8.2,6
+164,2025-04-01,Mumbai,Urban Tadka,North Indian,29,Male,Veg,433,35,3.6,Card,Arjun,Delivered,4.2,4
+165,2025-04-12,Hyderabad,Chinese Bowl,North Indian,43,Male,Veg,1238,58,4.1,Card,Mohit,Delivered,9.7,3
+166,2025-02-01,Pune,Burger Hub,Fast Food,25,Male,Non-Veg,613,34,3.4,UPI,Aman,Delivered,9.3,5
+167,2025-03-10,Delhi,Chinese Bowl,Biryani,35,Male,Non-Veg,657,47,2.8,Cash,Karan,Cancelled,4.8,6
+168,2025-01-23,Ahmedabad,Royal Biryani,Fast Food,37,Male,Non-Veg,974,50,4.3,Cash,Mohit,Cancelled,9.6,4
+169,2025-03-21,Delhi,Food Factory,Italian,25,Male,Non-Veg,1773,15,4.8,UPI,Rahul,Cancelled,8.8,4
+170,2025-03-11,Jaipur,Food Factory,Italian,19,Male,Veg,2407,19,4.0,Cash,Karan,Delivered,8.2,4
+171,2025-04-01,Ahmedabad,Pizza Point,Biryani,25,Male,Non-Veg,1530,57,3.4,Card,Rahul,Cancelled,12.5,5
+172,2025-01-25,Ahmedabad,Chinese Bowl,Italian,43,Male,Non-Veg,573,15,3.5,Card,Mohit,Delivered,8.0,5
+173,2025-02-08,Bangalore,Royal Biryani,Biryani,37,Male,Non-Veg,2002,59,3.6,Card,Vikas,Cancelled,5.9,5
+174,2025-05-23,Pune,Urban Tadka,Italian,18,Female,Non-Veg,1968,34,3.0,Cash,Rahul,Cancelled,9.1,5
+175,2025-03-01,Delhi,Tandoori Nights,Italian,44,Male,Non-Veg,986,42,4.7,UPI,Aman,Delivered,4.6,4
+176,2025-03-18,Pune,Royal Biryani,Biryani,37,Female,Non-Veg,1745,44,3.4,Card,Arjun,Cancelled,7.3,1
+177,2025-06-23,Delhi,Food Factory,North Indian,31,Female,Non-Veg,2449,51,2.9,UPI,Karan,Cancelled,6.6,5
+178,2025-05-31,Jaipur,Pizza Point,Chinese,29,Female,Non-Veg,457,34,3.8,UPI,Arjun,Cancelled,10.7,5
+179,2025-04-18,Ahmedabad,Spice Kitchen,Biryani,27,Male,Veg,1838,26,2.7,Card,Mohit,Delivered,5.9,6
+180,2025-06-12,Ahmedabad,Burger Hub,Fast Food,18,Male,Non-Veg,2414,15,4.8,Cash,Aman,Delivered,10.4,2
+181,2025-02-14,Bangalore,Royal Biryani,Biryani,34,Male,Veg,1833,53,2.8,UPI,Mohit,Delivered,1.4,1
+182,2025-02-13,Pune,Chinese Bowl,Fast Food,37,Female,Veg,201,58,4.4,Cash,Rahul,Delivered,6.0,2
+183,2025-01-09,Jaipur,Pizza Point,Biryani,20,Female,Veg,1992,54,3.5,UPI,Rahul,Cancelled,9.2,1
+184,2025-04-23,Delhi,Food Factory,Chinese,25,Male,Veg,860,35,2.5,Cash,Vikas,Cancelled,9.4,4
+185,2025-01-18,Mumbai,Urban Tadka,Biryani,25,Female,Non-Veg,1782,60,3.7,UPI,Aman,Delivered,3.4,4
+186,2025-02-17,Delhi,Royal Biryani,Fast Food,35,Female,Veg,1522,49,4.7,Cash,Karan,Delivered,14.5,4
+187,2025-03-31,Pune,Food Factory,Fast Food,24,Female,Non-Veg,1560,30,3.6,Cash,Arjun,Delivered,5.8,2
+188,2025-03-03,Ahmedabad,Spice Kitchen,North Indian,24,Female,Veg,2423,43,3.7,UPI,Rahul,Cancelled,5.9,6
+189,2025-04-14,Bangalore,Food Factory,Italian,33,Male,Veg,2004,58,2.8,Card,Vikas,Cancelled,9.2,3
+190,2025-05-17,Mumbai,Urban Tadka,Biryani,34,Male,Veg,652,58,3.8,Card,Vikas,Cancelled,1.4,6
+191,2025-05-26,Mumbai,Royal Biryani,North Indian,30,Male,Veg,1098,35,3.0,UPI,Aman,Cancelled,12.3,3
+192,2025-02-19,Delhi,Royal Biryani,North Indian,25,Female,Veg,1784,33,3.4,Cash,Arjun,Delivered,14.1,2
+193,2025-01-08,Jaipur,Tandoori Nights,Fast Food,18,Female,Veg,1790,37,4.8,UPI,Rahul,Cancelled,2.6,5
+194,2025-02-26,Ahmedabad,Burger Hub,Fast Food,19,Male,Non-Veg,961,34,2.9,Card,Aman,Cancelled,9.8,2
+195,2025-05-25,Hyderabad,Food Factory,Biryani,33,Female,Non-Veg,1579,15,2.8,Card,Vikas,Delivered,13.3,5
+196,2025-06-05,Ahmedabad,Burger Hub,Chinese,39,Male,Veg,1454,28,4.4,Cash,Arjun,Delivered,6.8,6
+197,2025-04-11,Ahmedabad,Food Factory,Italian,34,Male,Non-Veg,1886,43,4.8,Card,Mohit,Cancelled,8.1,6
+198,2025-06-28,Mumbai,Urban Tadka,Biryani,45,Male,Non-Veg,925,17,4.9,Card,Vikas,Delivered,8.6,6
+199,2025-03-02,Pune,Royal Biryani,Chinese,19,Male,Non-Veg,1572,41,2.7,Card,Vikas,Delivered,2.9,6
+200,2025-05-05,Ahmedabad,Chinese Bowl,Chinese,40,Male,Veg,2261,59,3.6,Card,Vikas,Cancelled,2.9,6
+201,2025-02-06,Pune,Food Factory,Italian,38,Male,Non-Veg,843,58,4.2,Card,Karan,Cancelled,12.6,1
+202,2025-06-26,Jaipur,Burger Hub,Italian,33,Male,Veg,397,32,3.3,UPI,Arjun,Cancelled,7.3,1
+203,2025-02-11,Jaipur,Chinese Bowl,Fast Food,36,Female,Non-Veg,838,50,2.7,UPI,Karan,Cancelled,2.2,6
+204,2025-03-26,Ahmedabad,Royal Biryani,North Indian,38,Female,Non-Veg,2150,27,4.5,Cash,Aman,Cancelled,13.9,6
+205,2025-03-15,Ahmedabad,Royal Biryani,Chinese,20,Male,Veg,253,40,4.6,Cash,Vikas,Delivered,14.5,5
+206,2025-06-24,Mumbai,Pizza Point,Italian,41,Female,Non-Veg,905,56,4.6,Cash,Rahul,Cancelled,2.9,3
+207,2025-03-06,Mumbai,Burger Hub,North Indian,21,Female,Veg,1036,46,3.6,Card,Rahul,Cancelled,9.4,6
+208,2025-01-21,Mumbai,Food Factory,Chinese,22,Female,Non-Veg,517,17,4.6,Cash,Rahul,Delivered,11.1,1
+209,2025-01-09,Hyderabad,Urban Tadka,Chinese,27,Male,Veg,2257,60,3.6,Cash,Aman,Cancelled,1.1,2
+210,2025-02-12,Bangalore,Royal Biryani,North Indian,32,Female,Veg,2070,20,3.9,Card,Karan,Cancelled,14.6,6
+211,2025-02-09,Bangalore,Pizza Point,North Indian,41,Female,Non-Veg,2464,51,3.6,Cash,Karan,Delivered,5.2,3
+212,2025-05-16,Ahmedabad,Burger Hub,Chinese,25,Female,Veg,751,57,3.9,Card,Mohit,Cancelled,6.0,2
+213,2025-05-25,Bangalore,Urban Tadka,Italian,21,Male,Veg,980,50,4.4,UPI,Vikas,Delivered,3.6,6
+214,2025-03-06,Ahmedabad,Chinese Bowl,Chinese,35,Female,Veg,2366,51,4.2,Card,Mohit,Delivered,12.9,6
+215,2025-01-19,Hyderabad,Chinese Bowl,Chinese,45,Male,Veg,2034,58,3.5,UPI,Rahul,Cancelled,11.8,2
+216,2025-04-06,Hyderabad,Burger Hub,Fast Food,25,Male,Non-Veg,320,15,4.3,UPI,Karan,Cancelled,2.7,2
+217,2025-04-20,Delhi,Food Factory,Biryani,21,Female,Veg,1653,36,4.5,Card,Arjun,Delivered,12.6,1
+218,2025-03-03,Jaipur,Tandoori Nights,Fast Food,19,Female,Veg,1607,50,3.3,Card,Aman,Delivered,14.0,6
+219,2025-03-04,Jaipur,Tandoori Nights,Chinese,40,Female,Veg,1951,22,4.5,Cash,Aman,Delivered,12.2,2
+220,2025-02-08,Pune,Royal Biryani,Fast Food,44,Male,Non-Veg,2355,59,4.4,Cash,Karan,Delivered,1.3,2
+221,2025-05-05,Pune,Chinese Bowl,North Indian,43,Male,Veg,896,54,4.5,Card,Mohit,Cancelled,12.8,2
+222,2025-06-27,Hyderabad,Chinese Bowl,Fast Food,25,Male,Non-Veg,1498,48,3.0,UPI,Mohit,Delivered,4.0,3
+223,2025-04-30,Jaipur,Chinese Bowl,Fast Food,29,Female,Veg,1524,52,3.7,UPI,Aman,Delivered,7.4,5
+224,2025-01-12,Ahmedabad,Spice Kitchen,Chinese,26,Female,Non-Veg,410,47,5.0,Cash,Mohit,Delivered,14.9,1
+225,2025-05-24,Hyderabad,Pizza Point,Chinese,42,Female,Veg,1636,33,4.5,UPI,Rahul,Delivered,5.3,3
+226,2025-04-03,Pune,Food Factory,Italian,45,Female,Non-Veg,397,60,3.3,Cash,Karan,Cancelled,13.5,2
+227,2025-03-31,Mumbai,Spice Kitchen,Chinese,18,Female,Non-Veg,1974,40,3.9,Cash,Rahul,Delivered,3.0,6
+228,2025-03-20,Jaipur,Tandoori Nights,North Indian,24,Male,Veg,1396,52,3.4,Cash,Vikas,Cancelled,11.1,1
+229,2025-05-05,Jaipur,Spice Kitchen,Italian,26,Male,Veg,1247,30,4.3,UPI,Aman,Cancelled,7.3,5
+230,2025-03-14,Hyderabad,Pizza Point,Chinese,25,Male,Veg,349,20,2.7,Card,Vikas,Delivered,1.1,3
+231,2025-05-18,Ahmedabad,Burger Hub,Italian,18,Male,Non-Veg,1488,16,4.1,Cash,Mohit,Cancelled,3.4,4
+232,2025-01-12,Delhi,Tandoori Nights,Fast Food,37,Female,Non-Veg,2047,15,2.6,Cash,Mohit,Cancelled,1.8,5
+233,2025-03-26,Mumbai,Pizza Point,North Indian,22,Male,Veg,2318,20,3.4,Cash,Karan,Cancelled,8.5,5
+234,2025-05-23,Mumbai,Tandoori Nights,Chinese,41,Female,Non-Veg,279,56,3.3,Card,Arjun,Cancelled,8.8,3
+235,2025-05-14,Pune,Royal Biryani,Chinese,26,Male,Non-Veg,558,56,4.5,Cash,Rahul,Delivered,6.6,1
+236,2025-01-08,Pune,Spice Kitchen,North Indian,19,Male,Veg,1211,53,3.4,UPI,Rahul,Delivered,8.4,3
+237,2025-03-04,Bangalore,Chinese Bowl,Chinese,38,Female,Non-Veg,2034,28,3.3,UPI,Aman,Delivered,1.9,6
+238,2025-04-13,Ahmedabad,Tandoori Nights,North Indian,25,Female,Non-Veg,1688,57,4.1,UPI,Aman,Cancelled,1.3,6
+239,2025-04-22,Mumbai,Food Factory,Italian,24,Female,Non-Veg,1291,34,4.7,Cash,Rahul,Delivered,7.7,3
+240,2025-02-04,Hyderabad,Royal Biryani,Italian,20,Female,Veg,2138,30,2.9,Card,Mohit,Cancelled,4.0,1
+241,2025-02-23,Hyderabad,Tandoori Nights,North Indian,42,Female,Veg,1930,23,5.0,Cash,Arjun,Delivered,12.3,2
+242,2025-01-03,Mumbai,Royal Biryani,Chinese,34,Female,Veg,841,44,4.2,UPI,Karan,Cancelled,10.0,6
+243,2025-04-12,Jaipur,Burger Hub,Biryani,25,Male,Veg,305,23,3.8,UPI,Mohit,Cancelled,10.8,6
+244,2025-01-06,Delhi,Tandoori Nights,North Indian,21,Male,Non-Veg,706,48,3.6,UPI,Rahul,Delivered,9.9,5
+245,2025-05-09,Delhi,Tandoori Nights,Fast Food,20,Female,Veg,1067,19,3.2,UPI,Aman,Cancelled,4.8,1
+246,2025-02-20,Pune,Burger Hub,Fast Food,43,Female,Non-Veg,193,35,4.2,Card,Karan,Cancelled,8.7,6
+247,2025-04-16,Hyderabad,Royal Biryani,Fast Food,31,Female,Non-Veg,1718,24,3.5,Cash,Karan,Delivered,13.6,6
+248,2025-01-02,Mumbai,Royal Biryani,Biryani,41,Female,Veg,962,57,2.8,Card,Aman,Delivered,6.7,5
+249,2025-03-25,Ahmedabad,Chinese Bowl,Biryani,39,Female,Non-Veg,153,45,4.4,Cash,Mohit,Cancelled,9.3,4
+250,2025-03-02,Hyderabad,Urban Tadka,Italian,40,Male,Non-Veg,2305,32,4.0,Card,Vikas,Delivered,9.8,5
+251,2025-06-20,Mumbai,Royal Biryani,Italian,44,Female,Non-Veg,2288,52,3.7,UPI,Rahul,Delivered,14.0,5
+252,2025-04-04,Pune,Food Factory,Biryani,23,Female,Veg,855,24,4.6,Cash,Rahul,Delivered,5.5,3
+253,2025-04-20,Delhi,Urban Tadka,Chinese,40,Female,Non-Veg,571,38,3.4,Card,Mohit,Cancelled,7.3,1
+254,2025-03-12,Bangalore,Royal Biryani,Fast Food,40,Male,Non-Veg,2109,26,4.4,UPI,Aman,Delivered,6.1,5
+255,2025-06-19,Mumbai,Tandoori Nights,Biryani,28,Female,Non-Veg,222,50,3.0,Card,Vikas,Delivered,9.3,3
+256,2025-05-20,Jaipur,Tandoori Nights,Italian,25,Female,Non-Veg,524,48,4.1,UPI,Rahul,Delivered,6.9,3
+257,2025-06-08,Hyderabad,Tandoori Nights,North Indian,40,Female,Non-Veg,1653,17,4.3,Cash,Karan,Cancelled,10.1,3
+258,2025-04-01,Mumbai,Urban Tadka,Biryani,22,Male,Non-Veg,409,57,3.0,UPI,Aman,Cancelled,6.3,5
+259,2025-04-17,Bangalore,Burger Hub,North Indian,36,Female,Non-Veg,1936,41,5.0,UPI,Aman,Cancelled,6.6,2
+260,2025-05-12,Hyderabad,Burger Hub,Chinese,41,Male,Non-Veg,2368,17,4.8,Cash,Mohit,Cancelled,11.8,4
+261,2025-01-31,Delhi,Food Factory,North Indian,36,Male,Veg,2185,20,4.6,UPI,Mohit,Cancelled,1.8,6
+262,2025-02-21,Ahmedabad,Tandoori Nights,Fast Food,45,Male,Non-Veg,724,41,4.5,Card,Rahul,Cancelled,5.7,5
+263,2025-01-02,Mumbai,Royal Biryani,Biryani,26,Male,Non-Veg,1721,31,4.2,Cash,Mohit,Cancelled,8.2,4
+264,2025-06-24,Delhi,Royal Biryani,Italian,25,Female,Non-Veg,2360,31,3.3,UPI,Aman,Delivered,8.5,3
+265,2025-04-29,Ahmedabad,Chinese Bowl,Biryani,22,Female,Non-Veg,970,44,4.8,Card,Arjun,Delivered,11.2,1
+266,2025-05-17,Delhi,Urban Tadka,Biryani,44,Female,Veg,1270,29,4.5,Cash,Rahul,Delivered,12.2,5
+267,2025-06-06,Bangalore,Urban Tadka,Fast Food,24,Male,Veg,887,42,4.6,UPI,Aman,Delivered,13.1,1
+268,2025-06-02,Bangalore,Spice Kitchen,North Indian,41,Male,Non-Veg,1054,58,4.3,Card,Vikas,Delivered,8.5,2
+269,2025-02-07,Hyderabad,Food Factory,Biryani,21,Female,Veg,975,20,4.9,Cash,Rahul,Cancelled,10.9,4
+270,2025-06-25,Bangalore,Spice Kitchen,North Indian,40,Male,Veg,805,43,3.2,UPI,Mohit,Cancelled,10.9,6
+271,2025-02-09,Jaipur,Royal Biryani,Italian,35,Male,Veg,1095,40,4.9,Cash,Karan,Delivered,10.0,2
+272,2025-06-17,Pune,Pizza Point,Chinese,32,Male,Veg,1910,36,4.2,UPI,Aman,Cancelled,2.7,2
+273,2025-06-17,Pune,Pizza Point,Italian,33,Female,Veg,2183,20,3.0,Cash,Vikas,Delivered,3.8,4
+274,2025-03-11,Hyderabad,Food Factory,Biryani,27,Male,Veg,155,37,3.0,UPI,Arjun,Cancelled,1.7,3
+275,2025-03-31,Bangalore,Chinese Bowl,Chinese,28,Female,Veg,599,34,4.5,Card,Mohit,Cancelled,2.3,5
+276,2025-01-29,Hyderabad,Spice Kitchen,Biryani,30,Female,Veg,288,17,3.8,UPI,Karan,Delivered,6.8,3
+277,2025-01-20,Jaipur,Spice Kitchen,Italian,23,Male,Non-Veg,170,56,4.7,Cash,Vikas,Delivered,4.7,1
+278,2025-03-03,Delhi,Spice Kitchen,Fast Food,26,Male,Non-Veg,2066,30,2.9,Card,Aman,Cancelled,6.1,2
+279,2025-03-14,Bangalore,Food Factory,Chinese,25,Male,Veg,211,21,4.9,Cash,Arjun,Delivered,10.6,2
+280,2025-01-23,Hyderabad,Spice Kitchen,Chinese,44,Female,Veg,1886,40,4.1,UPI,Vikas,Delivered,2.2,5
+281,2025-02-25,Mumbai,Food Factory,Biryani,42,Male,Veg,449,53,3.3,UPI,Aman,Delivered,9.7,6
+282,2025-02-14,Hyderabad,Royal Biryani,Italian,20,Female,Veg,194,35,4.9,Cash,Karan,Delivered,2.2,2
+283,2025-02-07,Ahmedabad,Spice Kitchen,Chinese,43,Female,Veg,984,27,4.8,Card,Vikas,Delivered,15.0,4
+284,2025-01-10,Bangalore,Tandoori Nights,North Indian,42,Male,Veg,356,38,4.5,UPI,Arjun,Cancelled,9.2,4
+285,2025-06-22,Hyderabad,Chinese Bowl,Chinese,26,Female,Veg,2059,58,4.0,Cash,Karan,Cancelled,11.5,5
+286,2025-05-17,Ahmedabad,Pizza Point,North Indian,43,Female,Veg,1133,27,4.0,Card,Rahul,Cancelled,9.1,6
+287,2025-01-13,Bangalore,Urban Tadka,Italian,44,Female,Non-Veg,506,29,4.1,Cash,Arjun,Cancelled,12.1,1
+288,2025-03-18,Bangalore,Burger Hub,North Indian,43,Female,Non-Veg,1832,53,3.2,UPI,Vikas,Delivered,2.2,4
+289,2025-04-30,Pune,Burger Hub,Italian,28,Male,Non-Veg,917,59,4.7,Cash,Arjun,Delivered,2.7,6
+290,2025-06-10,Delhi,Urban Tadka,Chinese,30,Female,Non-Veg,768,38,2.9,Cash,Mohit,Cancelled,5.3,3
+291,2025-05-10,Hyderabad,Food Factory,Chinese,30,Male,Veg,868,21,4.9,Cash,Mohit,Cancelled,11.3,6
+292,2025-01-26,Pune,Urban Tadka,Chinese,42,Female,Non-Veg,460,47,4.1,Cash,Vikas,Cancelled,6.1,6
+293,2025-06-11,Ahmedabad,Urban Tadka,Biryani,43,Male,Non-Veg,2170,38,4.2,UPI,Aman,Delivered,8.8,4
+294,2025-03-21,Hyderabad,Spice Kitchen,Biryani,41,Female,Veg,1482,45,2.8,Cash,Rahul,Delivered,9.2,5
+295,2025-05-11,Delhi,Urban Tadka,Chinese,41,Female,Veg,1342,49,2.6,Card,Karan,Delivered,12.3,6
+296,2025-06-13,Bangalore,Chinese Bowl,Italian,40,Female,Non-Veg,813,51,3.7,UPI,Mohit,Cancelled,13.5,2
+297,2025-05-13,Hyderabad,Burger Hub,Chinese,27,Male,Non-Veg,369,52,3.2,Cash,Vikas,Delivered,4.8,4
+298,2025-02-20,Pune,Tandoori Nights,Fast Food,30,Male,Non-Veg,1631,40,3.3,Cash,Vikas,Delivered,3.9,5
+299,2025-04-26,Pune,Urban Tadka,Chinese,42,Female,Veg,772,32,4.4,Cash,Arjun,Cancelled,11.5,3
+300,2025-04-11,Jaipur,Urban Tadka,Biryani,43,Female,Veg,1213,43,4.4,UPI,Mohit,Cancelled,6.0,3
+301,2025-03-09,Mumbai,Pizza Point,Biryani,21,Female,Veg,1407,25,4.1,Card,Arjun,Delivered,11.8,4
+302,2025-03-29,Bangalore,Urban Tadka,Fast Food,43,Female,Non-Veg,910,60,4.7,Card,Arjun,Cancelled,10.4,3
+303,2025-02-04,Mumbai,Tandoori Nights,North Indian,31,Male,Veg,2500,57,3.1,Cash,Karan,Delivered,9.0,3
+304,2025-06-23,Hyderabad,Spice Kitchen,Chinese,25,Male,Veg,1307,17,4.4,Card,Karan,Cancelled,2.8,6
+305,2025-06-30,Bangalore,Royal Biryani,North Indian,42,Female,Veg,1066,34,2.7,Card,Mohit,Delivered,6.0,6
+306,2025-05-13,Delhi,Pizza Point,Italian,24,Male,Non-Veg,718,43,3.2,UPI,Karan,Delivered,1.6,4
+307,2025-01-29,Bangalore,Food Factory,Italian,38,Female,Non-Veg,2323,51,3.1,Card,Rahul,Cancelled,12.8,5
+308,2025-05-18,Ahmedabad,Burger Hub,Chinese,42,Male,Veg,2217,32,3.6,UPI,Arjun,Cancelled,11.1,5
+309,2025-01-29,Bangalore,Urban Tadka,Biryani,36,Female,Veg,374,38,4.9,Cash,Arjun,Cancelled,2.0,4
+310,2025-05-28,Mumbai,Urban Tadka,Fast Food,39,Female,Veg,1549,54,3.0,Cash,Rahul,Cancelled,11.6,1
+311,2025-05-13,Delhi,Chinese Bowl,Chinese,43,Male,Non-Veg,974,50,4.4,Cash,Arjun,Delivered,13.9,6
+312,2025-06-06,Ahmedabad,Burger Hub,North Indian,29,Male,Non-Veg,203,56,4.3,Card,Mohit,Cancelled,8.8,6
+313,2025-02-11,Pune,Tandoori Nights,Italian,27,Male,Veg,867,59,3.4,UPI,Arjun,Cancelled,11.8,3
+314,2025-01-28,Hyderabad,Spice Kitchen,Italian,42,Female,Non-Veg,488,36,4.5,Cash,Rahul,Delivered,8.4,3
+315,2025-05-11,Bangalore,Food Factory,Italian,26,Male,Veg,1289,48,3.6,Card,Arjun,Cancelled,3.3,4
+316,2025-02-04,Mumbai,Burger Hub,North Indian,24,Female,Veg,187,20,3.7,UPI,Rahul,Delivered,13.0,3
+317,2025-06-09,Pune,Chinese Bowl,Fast Food,42,Male,Veg,1147,28,4.8,Cash,Aman,Delivered,9.3,2
+318,2025-02-21,Bangalore,Chinese Bowl,Biryani,36,Female,Veg,2485,18,4.7,UPI,Karan,Delivered,11.0,4
+319,2025-06-27,Bangalore,Spice Kitchen,North Indian,33,Female,Veg,1127,29,2.5,Card,Arjun,Delivered,9.9,6
+320,2025-06-15,Delhi,Food Factory,North Indian,24,Male,Veg,2060,18,3.5,UPI,Arjun,Delivered,14.0,6
+321,2025-05-28,Bangalore,Royal Biryani,North Indian,22,Female,Veg,2111,21,4.4,Card,Aman,Delivered,3.0,5
+322,2025-02-11,Pune,Tandoori Nights,North Indian,34,Female,Veg,445,16,3.9,UPI,Mohit,Delivered,10.9,6
+323,2025-05-20,Pune,Royal Biryani,Fast Food,30,Male,Veg,248,26,4.6,Cash,Rahul,Delivered,10.9,6
+324,2025-02-23,Ahmedabad,Urban Tadka,North Indian,37,Male,Non-Veg,535,20,4.3,UPI,Aman,Cancelled,4.8,3
+325,2025-03-17,Mumbai,Chinese Bowl,Biryani,36,Female,Veg,178,20,2.7,UPI,Arjun,Delivered,8.3,4
+326,2025-04-15,Pune,Food Factory,North Indian,18,Male,Veg,703,42,4.5,UPI,Rahul,Cancelled,7.2,6
+327,2025-02-04,Jaipur,Royal Biryani,Italian,18,Female,Non-Veg,537,25,3.6,Card,Arjun,Cancelled,11.7,3
+328,2025-03-12,Hyderabad,Food Factory,North Indian,31,Male,Non-Veg,1095,49,4.7,Cash,Aman,Delivered,13.5,1
+329,2025-05-17,Mumbai,Pizza Point,North Indian,44,Female,Non-Veg,1530,38,2.7,UPI,Karan,Delivered,4.0,1
+330,2025-06-16,Ahmedabad,Food Factory,Fast Food,34,Male,Veg,1043,33,4.4,UPI,Arjun,Cancelled,7.0,1
+331,2025-02-15,Pune,Chinese Bowl,Biryani,39,Male,Non-Veg,1751,30,3.4,UPI,Aman,Delivered,10.0,5
+332,2025-06-17,Ahmedabad,Spice Kitchen,North Indian,37,Male,Non-Veg,1394,19,2.7,UPI,Mohit,Delivered,2.0,1
+333,2025-02-06,Pune,Pizza Point,Fast Food,38,Female,Non-Veg,878,21,3.1,Cash,Karan,Delivered,7.2,6
+334,2025-01-25,Hyderabad,Chinese Bowl,Italian,28,Male,Veg,1739,29,2.8,UPI,Vikas,Cancelled,4.9,1
+335,2025-02-18,Delhi,Pizza Point,Chinese,43,Female,Non-Veg,889,17,2.9,UPI,Aman,Cancelled,4.6,1
+336,2025-05-26,Pune,Food Factory,North Indian,20,Female,Veg,1249,23,4.8,Cash,Vikas,Delivered,2.9,6
+337,2025-03-06,Jaipur,Tandoori Nights,Chinese,34,Male,Veg,829,33,4.4,UPI,Rahul,Delivered,13.4,4
+338,2025-04-04,Mumbai,Chinese Bowl,Italian,45,Male,Veg,557,57,3.4,Cash,Rahul,Cancelled,1.4,4
+339,2025-05-05,Delhi,Pizza Point,Fast Food,35,Female,Veg,1807,22,3.7,UPI,Rahul,Cancelled,7.2,1
+340,2025-02-18,Delhi,Royal Biryani,Italian,32,Female,Veg,1536,50,2.6,Card,Rahul,Cancelled,11.4,5
+341,2025-06-06,Hyderabad,Urban Tadka,North Indian,19,Female,Veg,1131,48,2.9,Cash,Rahul,Delivered,2.2,3
+342,2025-04-30,Bangalore,Spice Kitchen,North Indian,43,Female,Non-Veg,551,28,3.2,Cash,Aman,Delivered,10.8,4
+343,2025-05-04,Jaipur,Spice Kitchen,Biryani,18,Male,Non-Veg,281,49,4.1,Cash,Arjun,Delivered,10.1,2
+344,2025-04-10,Hyderabad,Tandoori Nights,North Indian,45,Female,Veg,1079,16,4.0,Card,Aman,Cancelled,4.0,1
+345,2025-03-15,Bangalore,Spice Kitchen,Chinese,27,Female,Veg,421,40,2.6,UPI,Aman,Cancelled,14.3,2
+346,2025-01-17,Bangalore,Tandoori Nights,Biryani,45,Female,Veg,1036,27,4.6,UPI,Vikas,Cancelled,4.8,3
+347,2025-01-09,Bangalore,Spice Kitchen,Italian,31,Male,Non-Veg,813,30,4.6,UPI,Rahul,Cancelled,9.5,4
+348,2025-05-24,Pune,Urban Tadka,Chinese,26,Male,Veg,1271,41,2.9,UPI,Mohit,Delivered,9.1,1
+349,2025-02-12,Mumbai,Urban Tadka,Chinese,20,Female,Non-Veg,1187,51,4.2,UPI,Arjun,Cancelled,14.5,6
+350,2025-04-15,Delhi,Burger Hub,Fast Food,44,Male,Veg,1336,19,3.2,UPI,Rahul,Cancelled,2.0,4
+351,2025-03-18,Hyderabad,Pizza Point,Fast Food,25,Female,Non-Veg,2287,50,3.0,UPI,Mohit,Cancelled,9.0,2
+352,2025-06-27,Jaipur,Food Factory,Fast Food,29,Female,Veg,383,54,4.2,UPI,Arjun,Cancelled,12.2,1
+353,2025-04-24,Bangalore,Tandoori Nights,Chinese,32,Female,Veg,1913,20,4.9,UPI,Mohit,Cancelled,6.6,2
+354,2025-03-01,Jaipur,Tandoori Nights,Fast Food,39,Female,Non-Veg,672,29,4.1,Cash,Aman,Delivered,8.1,4
+355,2025-06-07,Bangalore,Pizza Point,Fast Food,36,Female,Non-Veg,2373,37,3.4,Cash,Vikas,Delivered,12.4,6
+356,2025-01-05,Ahmedabad,Spice Kitchen,Fast Food,29,Male,Non-Veg,2403,56,3.0,UPI,Arjun,Delivered,6.2,3
+357,2025-06-16,Jaipur,Spice Kitchen,North Indian,37,Female,Veg,962,15,4.0,Cash,Arjun,Cancelled,1.4,1
+358,2025-02-14,Delhi,Food Factory,North Indian,23,Male,Veg,1235,60,4.5,UPI,Aman,Delivered,2.6,1
+359,2025-02-20,Mumbai,Chinese Bowl,Italian,20,Female,Non-Veg,1345,41,4.4,Cash,Vikas,Delivered,14.0,3
+360,2025-02-11,Jaipur,Pizza Point,North Indian,37,Male,Non-Veg,689,36,3.4,Cash,Rahul,Delivered,9.5,5
+361,2025-01-14,Hyderabad,Spice Kitchen,Fast Food,30,Female,Veg,1089,34,4.5,Cash,Aman,Delivered,9.2,2
+362,2025-04-26,Hyderabad,Chinese Bowl,Chinese,37,Male,Non-Veg,2464,42,2.8,UPI,Mohit,Delivered,2.5,6
+363,2025-04-28,Mumbai,Royal Biryani,Biryani,31,Female,Veg,276,29,4.3,UPI,Mohit,Cancelled,4.0,6
+364,2025-06-26,Bangalore,Food Factory,Chinese,24,Female,Non-Veg,687,25,2.7,Cash,Vikas,Cancelled,6.6,5
+365,2025-03-20,Delhi,Tandoori Nights,North Indian,27,Male,Non-Veg,2254,30,2.9,Card,Rahul,Cancelled,1.4,3
+366,2025-01-31,Hyderabad,Tandoori Nights,Fast Food,34,Female,Veg,585,57,2.7,Cash,Karan,Cancelled,1.9,6
+367,2025-05-12,Mumbai,Chinese Bowl,Italian,45,Female,Non-Veg,1672,49,3.6,Card,Vikas,Delivered,2.5,4
+368,2025-01-23,Ahmedabad,Royal Biryani,Chinese,19,Male,Veg,2058,58,4.0,Cash,Arjun,Delivered,12.9,6
+369,2025-03-29,Bangalore,Pizza Point,Chinese,30,Male,Veg,280,33,4.8,Card,Rahul,Delivered,10.8,3
+370,2025-02-11,Hyderabad,Urban Tadka,Chinese,25,Male,Non-Veg,1894,60,3.3,UPI,Rahul,Cancelled,14.6,1
+371,2025-01-24,Jaipur,Urban Tadka,Fast Food,25,Male,Non-Veg,2055,40,4.3,Card,Rahul,Delivered,13.8,4
+372,2025-01-28,Hyderabad,Tandoori Nights,Chinese,18,Female,Non-Veg,758,54,3.3,UPI,Arjun,Cancelled,10.6,6
+373,2025-04-18,Delhi,Burger Hub,Chinese,36,Female,Veg,1191,53,2.6,UPI,Vikas,Delivered,12.9,3
+374,2025-04-04,Jaipur,Tandoori Nights,Biryani,29,Female,Non-Veg,1313,22,4.9,UPI,Arjun,Cancelled,11.6,5
+375,2025-03-04,Hyderabad,Burger Hub,Chinese,42,Male,Non-Veg,1187,47,4.1,Cash,Karan,Cancelled,2.9,5
+376,2025-03-28,Ahmedabad,Burger Hub,Italian,45,Male,Non-Veg,719,58,3.9,UPI,Mohit,Cancelled,14.2,4
+377,2025-04-29,Hyderabad,Food Factory,Italian,29,Male,Veg,561,22,3.3,UPI,Aman,Delivered,6.2,5
+378,2025-01-18,Bangalore,Burger Hub,Chinese,45,Female,Non-Veg,1424,45,4.9,Cash,Arjun,Cancelled,5.5,3
+379,2025-03-21,Ahmedabad,Tandoori Nights,Biryani,21,Male,Non-Veg,1977,41,2.5,Card,Rahul,Delivered,3.9,5
+380,2025-04-03,Ahmedabad,Pizza Point,Biryani,19,Female,Non-Veg,246,60,2.8,UPI,Rahul,Cancelled,12.5,6
+381,2025-04-02,Delhi,Food Factory,Biryani,43,Male,Veg,1652,42,2.9,Card,Arjun,Delivered,14.0,2
+382,2025-03-25,Jaipur,Tandoori Nights,Biryani,41,Male,Non-Veg,2389,47,2.5,UPI,Mohit,Cancelled,15.0,5
+383,2025-02-12,Mumbai,Burger Hub,Biryani,42,Male,Non-Veg,368,18,3.0,UPI,Mohit,Delivered,8.2,2
+384,2025-05-24,Mumbai,Spice Kitchen,Chinese,38,Female,Veg,1886,23,4.0,Cash,Mohit,Cancelled,4.3,2
+385,2025-05-12,Ahmedabad,Chinese Bowl,North Indian,20,Male,Non-Veg,827,30,3.8,UPI,Mohit,Delivered,4.3,2
+386,2025-02-21,Pune,Pizza Point,Fast Food,40,Male,Non-Veg,1888,47,2.6,UPI,Karan,Delivered,13.2,5
+387,2025-06-23,Bangalore,Spice Kitchen,Italian,32,Male,Veg,2374,36,3.5,Card,Rahul,Delivered,4.2,4
+388,2025-04-02,Pune,Urban Tadka,Italian,27,Male,Veg,1974,20,2.9,Card,Vikas,Delivered,8.1,2
+389,2025-04-17,Bangalore,Chinese Bowl,Biryani,33,Female,Non-Veg,2080,48,3.0,Card,Mohit,Delivered,8.0,2
+390,2025-01-19,Jaipur,Urban Tadka,North Indian,30,Male,Non-Veg,1891,36,3.4,Card,Karan,Delivered,7.5,5
+391,2025-05-21,Delhi,Burger Hub,Fast Food,29,Female,Non-Veg,1371,25,3.9,Card,Arjun,Delivered,14.3,2
+392,2025-06-10,Jaipur,Urban Tadka,Italian,36,Male,Non-Veg,790,50,3.9,Card,Rahul,Cancelled,2.6,1
+393,2025-06-07,Jaipur,Chinese Bowl,Fast Food,33,Female,Non-Veg,2285,16,3.4,Card,Vikas,Cancelled,2.6,3
+394,2025-04-10,Pune,Royal Biryani,North Indian,29,Female,Veg,1636,55,3.8,Cash,Vikas,Cancelled,12.5,2
+395,2025-06-26,Bangalore,Burger Hub,North Indian,24,Male,Veg,725,24,3.3,UPI,Aman,Cancelled,4.7,6
+396,2025-01-28,Mumbai,Pizza Point,Chinese,31,Male,Veg,2185,39,3.6,Card,Arjun,Delivered,9.4,3
+397,2025-01-10,Delhi,Burger Hub,Chinese,21,Male,Veg,1492,60,4.2,UPI,Aman,Cancelled,3.3,2
+398,2025-02-20,Pune,Tandoori Nights,Chinese,29,Male,Non-Veg,1482,40,3.5,Cash,Rahul,Cancelled,14.6,6
+399,2025-06-30,Mumbai,Spice Kitchen,Chinese,22,Female,Veg,1974,48,4.1,UPI,Karan,Delivered,7.3,1
+400,2025-06-03,Ahmedabad,Tandoori Nights,Fast Food,34,Male,Veg,2447,48,2.9,UPI,Arjun,Cancelled,3.2,6
+401,2025-01-02,Pune,Burger Hub,Italian,31,Male,Non-Veg,1824,36,4.9,Card,Mohit,Delivered,5.4,4
+402,2025-02-18,Jaipur,Food Factory,Biryani,44,Male,Non-Veg,1453,56,4.4,Cash,Mohit,Cancelled,3.2,5
+403,2025-05-06,Jaipur,Pizza Point,Fast Food,44,Male,Veg,1903,20,3.9,Cash,Mohit,Cancelled,10.9,1
+404,2025-01-23,Pune,Spice Kitchen,North Indian,30,Female,Veg,1933,43,4.7,Cash,Aman,Cancelled,10.1,1
+405,2025-01-10,Bangalore,Royal Biryani,Chinese,20,Female,Non-Veg,1667,28,4.8,Card,Mohit,Cancelled,11.8,6
+406,2025-06-15,Hyderabad,Royal Biryani,Fast Food,38,Female,Non-Veg,2086,22,2.6,UPI,Arjun,Cancelled,1.7,5
+407,2025-02-03,Jaipur,Urban Tadka,Chinese,26,Male,Non-Veg,2107,16,2.7,UPI,Rahul,Cancelled,9.4,6
+408,2025-01-21,Ahmedabad,Royal Biryani,Italian,44,Male,Veg,641,56,3.0,Card,Vikas,Cancelled,3.3,2
+409,2025-05-02,Hyderabad,Food Factory,Italian,26,Male,Veg,809,54,3.3,UPI,Arjun,Cancelled,8.5,4
+410,2025-02-24,Delhi,Urban Tadka,Fast Food,43,Female,Veg,1720,29,4.1,Cash,Mohit,Delivered,13.9,2
+411,2025-05-14,Ahmedabad,Pizza Point,Biryani,28,Female,Veg,711,45,3.7,Cash,Mohit,Cancelled,2.4,4
+412,2025-05-31,Jaipur,Spice Kitchen,Italian,21,Female,Non-Veg,609,23,3.7,Cash,Vikas,Cancelled,9.1,2
+413,2025-03-22,Hyderabad,Burger Hub,Italian,24,Female,Veg,1314,44,4.1,Card,Arjun,Cancelled,7.7,6
+414,2025-02-20,Pune,Spice Kitchen,Italian,24,Male,Non-Veg,1350,60,3.1,Card,Aman,Cancelled,1.1,5
+415,2025-01-19,Mumbai,Pizza Point,Chinese,39,Male,Non-Veg,562,27,4.2,Card,Arjun,Delivered,4.7,4
+416,2025-01-23,Jaipur,Tandoori Nights,Biryani,40,Male,Non-Veg,1583,60,4.0,UPI,Aman,Delivered,14.8,2
+417,2025-01-27,Mumbai,Pizza Point,Italian,36,Female,Non-Veg,1809,59,2.6,Card,Arjun,Cancelled,2.5,6
+418,2025-03-11,Pune,Spice Kitchen,Fast Food,29,Male,Veg,373,42,4.1,Card,Karan,Delivered,6.2,3
+419,2025-05-22,Mumbai,Tandoori Nights,Italian,26,Male,Veg,797,24,2.9,Card,Aman,Delivered,5.3,5
+420,2025-05-28,Delhi,Chinese Bowl,Fast Food,32,Male,Veg,1117,42,2.9,UPI,Rahul,Cancelled,4.4,1
+421,2025-05-03,Pune,Urban Tadka,Fast Food,28,Female,Veg,1060,57,5.0,UPI,Karan,Delivered,13.9,5
+422,2025-02-16,Mumbai,Pizza Point,Italian,20,Female,Veg,1537,56,2.7,Cash,Aman,Cancelled,4.4,2
+423,2025-02-14,Jaipur,Urban Tadka,Italian,21,Female,Veg,336,46,2.8,Card,Arjun,Delivered,12.5,1
+424,2025-03-14,Pune,Burger Hub,Italian,19,Male,Veg,2241,40,2.9,Card,Rahul,Cancelled,4.6,4
+425,2025-01-24,Mumbai,Chinese Bowl,North Indian,40,Male,Non-Veg,563,27,3.5,Card,Arjun,Cancelled,14.9,3
+426,2025-03-05,Jaipur,Tandoori Nights,Chinese,19,Female,Non-Veg,1914,19,2.9,UPI,Aman,Delivered,14.9,6
+427,2025-01-26,Bangalore,Chinese Bowl,Italian,24,Male,Non-Veg,2454,43,3.2,Card,Karan,Delivered,3.0,4
+428,2025-04-22,Mumbai,Burger Hub,Chinese,36,Male,Veg,612,35,3.1,UPI,Mohit,Cancelled,5.9,6
+429,2025-04-04,Bangalore,Royal Biryani,Chinese,32,Female,Veg,164,23,2.7,Card,Karan,Delivered,9.9,2
+430,2025-06-18,Hyderabad,Royal Biryani,North Indian,21,Female,Veg,1055,15,2.9,Cash,Aman,Cancelled,14.9,3
+431,2025-05-24,Hyderabad,Chinese Bowl,Biryani,35,Male,Non-Veg,2274,28,3.7,Cash,Rahul,Cancelled,6.0,5
+432,2025-05-31,Mumbai,Royal Biryani,Biryani,22,Male,Non-Veg,1910,57,4.0,UPI,Mohit,Cancelled,4.9,6
+433,2025-06-30,Bangalore,Tandoori Nights,Biryani,33,Male,Non-Veg,2378,33,3.2,Card,Aman,Cancelled,7.8,6
+434,2025-06-24,Mumbai,Chinese Bowl,Italian,40,Female,Non-Veg,1622,20,4.4,Card,Arjun,Delivered,12.6,4
+435,2025-06-17,Ahmedabad,Royal Biryani,Italian,40,Male,Non-Veg,2396,18,3.4,Cash,Aman,Cancelled,14.5,5
+436,2025-06-21,Hyderabad,Royal Biryani,Chinese,28,Female,Non-Veg,594,26,3.7,Cash,Rahul,Cancelled,13.5,1
+437,2025-02-03,Jaipur,Urban Tadka,Fast Food,27,Female,Veg,1436,24,4.9,UPI,Arjun,Delivered,5.9,1
+438,2025-06-22,Hyderabad,Food Factory,Italian,19,Male,Veg,1899,42,3.0,Cash,Mohit,Delivered,2.6,3
+439,2025-04-23,Pune,Urban Tadka,Biryani,26,Male,Non-Veg,1747,26,3.4,UPI,Arjun,Cancelled,2.6,3
+440,2025-03-27,Mumbai,Burger Hub,Biryani,40,Male,Veg,233,52,4.2,Card,Rahul,Cancelled,2.4,6
+441,2025-03-03,Mumbai,Chinese Bowl,Biryani,42,Female,Veg,299,51,3.3,Card,Mohit,Delivered,8.1,1
+442,2025-03-02,Mumbai,Chinese Bowl,Italian,31,Female,Veg,1084,22,3.3,Cash,Rahul,Cancelled,4.4,5
+443,2025-03-03,Bangalore,Burger Hub,Biryani,43,Female,Non-Veg,2072,60,3.7,UPI,Aman,Cancelled,7.5,5
+444,2025-06-09,Mumbai,Chinese Bowl,Biryani,30,Male,Veg,1214,43,4.8,UPI,Vikas,Cancelled,13.2,6
+445,2025-01-01,Delhi,Pizza Point,North Indian,23,Female,Veg,1921,41,3.8,Cash,Arjun,Cancelled,8.2,6
+446,2025-02-13,Delhi,Chinese Bowl,North Indian,29,Female,Veg,1053,39,3.4,Cash,Mohit,Cancelled,5.0,1
+447,2025-06-08,Ahmedabad,Tandoori Nights,North Indian,29,Female,Veg,1495,58,4.6,Cash,Rahul,Cancelled,1.3,3
+448,2025-02-26,Bangalore,Burger Hub,Chinese,39,Male,Non-Veg,1627,40,3.1,UPI,Arjun,Cancelled,3.3,3
+449,2025-01-15,Delhi,Urban Tadka,Chinese,28,Female,Veg,2185,49,3.7,UPI,Mohit,Delivered,1.9,2
+450,2025-06-27,Mumbai,Royal Biryani,Biryani,22,Male,Non-Veg,1339,50,3.8,Card,Karan,Delivered,2.9,3
+451,2025-03-19,Ahmedabad,Food Factory,Biryani,37,Male,Non-Veg,1459,51,2.8,Cash,Karan,Cancelled,8.7,2
+452,2025-01-16,Ahmedabad,Pizza Point,North Indian,37,Male,Veg,1245,19,2.9,Card,Aman,Delivered,9.7,2
+453,2025-04-23,Delhi,Chinese Bowl,Biryani,25,Male,Veg,1436,55,3.3,UPI,Rahul,Cancelled,6.2,1
+454,2025-01-06,Pune,Pizza Point,North Indian,23,Female,Non-Veg,1381,20,4.7,Cash,Mohit,Cancelled,8.7,1
+455,2025-01-16,Ahmedabad,Royal Biryani,Chinese,27,Male,Non-Veg,737,39,4.2,Cash,Karan,Cancelled,12.6,2
+456,2025-03-13,Jaipur,Food Factory,Chinese,40,Female,Non-Veg,336,29,2.7,Cash,Vikas,Cancelled,8.1,5
+457,2025-05-05,Delhi,Tandoori Nights,Fast Food,24,Male,Non-Veg,2182,57,4.8,UPI,Mohit,Delivered,7.0,2
+458,2025-05-01,Pune,Food Factory,Chinese,38,Male,Non-Veg,2489,21,3.2,Cash,Arjun,Delivered,7.8,4
+459,2025-06-01,Pune,Food Factory,Italian,31,Male,Non-Veg,1190,23,3.9,Card,Mohit,Delivered,10.8,2
+460,2025-03-16,Ahmedabad,Pizza Point,Fast Food,44,Female,Non-Veg,1939,27,4.6,UPI,Karan,Delivered,8.1,2
+461,2025-03-23,Mumbai,Urban Tadka,Fast Food,26,Male,Veg,899,51,4.6,UPI,Karan,Delivered,7.2,5
+462,2025-05-05,Hyderabad,Pizza Point,North Indian,45,Male,Non-Veg,306,56,3.9,Card,Karan,Delivered,12.9,3
+463,2025-06-11,Ahmedabad,Food Factory,Biryani,23,Female,Non-Veg,577,45,4.5,Card,Rahul,Cancelled,3.1,5
+464,2025-01-26,Delhi,Burger Hub,Chinese,25,Male,Veg,1197,31,4.6,Cash,Karan,Delivered,4.5,3
+465,2025-04-29,Mumbai,Tandoori Nights,Chinese,43,Female,Veg,1065,15,2.8,Card,Aman,Cancelled,10.8,1
+466,2025-02-27,Mumbai,Tandoori Nights,North Indian,28,Female,Non-Veg,2335,40,3.1,Cash,Aman,Cancelled,10.5,5
+467,2025-05-16,Hyderabad,Chinese Bowl,Italian,23,Female,Non-Veg,1014,57,2.6,UPI,Karan,Delivered,14.9,5
+468,2025-01-31,Delhi,Tandoori Nights,Fast Food,18,Male,Non-Veg,2149,55,2.9,UPI,Karan,Delivered,13.2,4
+469,2025-06-12,Ahmedabad,Food Factory,Chinese,38,Female,Veg,1363,16,3.5,Card,Vikas,Delivered,5.7,2
+470,2025-01-13,Ahmedabad,Pizza Point,Italian,19,Female,Non-Veg,2385,59,4.5,UPI,Aman,Delivered,14.9,3
+471,2025-01-07,Hyderabad,Tandoori Nights,Chinese,37,Female,Non-Veg,651,22,3.8,Cash,Karan,Cancelled,6.4,4
+472,2025-02-28,Bangalore,Food Factory,Italian,33,Female,Non-Veg,2276,50,3.2,UPI,Mohit,Delivered,10.1,3
+473,2025-02-21,Mumbai,Chinese Bowl,Fast Food,42,Female,Non-Veg,775,53,3.8,Cash,Rahul,Cancelled,13.6,2
+474,2025-02-01,Pune,Burger Hub,Fast Food,20,Male,Non-Veg,1390,52,3.6,UPI,Aman,Delivered,6.7,5
+475,2025-01-05,Hyderabad,Urban Tadka,Italian,22,Female,Veg,214,16,2.9,UPI,Arjun,Delivered,12.4,5
+476,2025-02-19,Pune,Pizza Point,Chinese,27,Female,Non-Veg,1181,52,3.1,UPI,Mohit,Delivered,8.6,6
+477,2025-04-15,Jaipur,Burger Hub,North Indian,21,Female,Veg,2493,59,3.0,Card,Vikas,Cancelled,5.1,5
+478,2025-04-22,Delhi,Royal Biryani,Fast Food,36,Female,Non-Veg,2404,32,4.1,Card,Aman,Delivered,12.2,4
+479,2025-03-29,Mumbai,Tandoori Nights,North Indian,28,Female,Non-Veg,1681,30,3.5,Card,Vikas,Delivered,14.9,4
+480,2025-03-07,Hyderabad,Food Factory,Chinese,35,Male,Veg,475,31,4.7,UPI,Vikas,Cancelled,10.7,2
+481,2025-04-13,Bangalore,Spice Kitchen,North Indian,27,Male,Veg,2098,56,4.1,Card,Karan,Delivered,13.5,4
+482,2025-04-11,Ahmedabad,Urban Tadka,Chinese,29,Female,Non-Veg,2482,40,3.8,UPI,Karan,Delivered,14.5,3
+483,2025-05-23,Bangalore,Burger Hub,North Indian,25,Male,Veg,1622,32,4.7,Cash,Karan,Cancelled,5.4,3
+484,2025-02-17,Hyderabad,Spice Kitchen,Chinese,20,Male,Veg,2109,36,4.7,Card,Rahul,Delivered,11.0,2
+485,2025-03-26,Hyderabad,Royal Biryani,Italian,20,Female,Veg,1767,15,4.9,UPI,Karan,Cancelled,1.2,6
+486,2025-04-07,Hyderabad,Burger Hub,North Indian,25,Female,Non-Veg,1135,16,4.0,Cash,Arjun,Cancelled,9.1,5
+487,2025-01-24,Mumbai,Chinese Bowl,Italian,24,Male,Non-Veg,2500,17,4.7,UPI,Mohit,Delivered,9.8,5
+488,2025-06-28,Bangalore,Spice Kitchen,Fast Food,22,Female,Non-Veg,1566,40,2.9,UPI,Arjun,Cancelled,9.4,2
+489,2025-03-16,Pune,Tandoori Nights,North Indian,34,Female,Veg,306,36,3.1,Card,Arjun,Cancelled,10.3,4
+490,2025-05-15,Bangalore,Chinese Bowl,Fast Food,32,Female,Veg,867,22,3.1,Card,Arjun,Delivered,3.9,2
+491,2025-05-07,Ahmedabad,Tandoori Nights,Chinese,28,Female,Non-Veg,340,55,4.6,UPI,Rahul,Cancelled,2.1,4
+492,2025-01-08,Delhi,Chinese Bowl,Fast Food,34,Male,Non-Veg,1100,23,4.4,Card,Karan,Delivered,5.8,6
+493,2025-05-06,Bangalore,Urban Tadka,North Indian,38,Male,Non-Veg,302,53,4.5,Cash,Rahul,Delivered,5.7,1
+494,2025-01-07,Delhi,Burger Hub,Fast Food,45,Female,Non-Veg,1680,21,4.0,Card,Vikas,Delivered,14.4,6
+495,2025-03-08,Bangalore,Pizza Point,Fast Food,35,Female,Veg,2165,21,3.5,UPI,Karan,Cancelled,12.2,5
+496,2025-01-07,Delhi,Chinese Bowl,Italian,19,Female,Non-Veg,161,45,4.7,UPI,Vikas,Cancelled,6.3,3
+497,2025-06-10,Hyderabad,Burger Hub,Italian,27,Male,Non-Veg,2468,57,2.6,Cash,Mohit,Delivered,9.7,4
+498,2025-03-19,Ahmedabad,Burger Hub,Italian,39,Male,Veg,1462,60,4.7,UPI,Rahul,Delivered,13.7,2
+499,2025-03-09,Mumbai,Urban Tadka,Chinese,41,Female,Veg,563,30,3.6,Cash,Vikas,Delivered,12.2,2
+500,2025-05-23,Hyderabad,Royal Biryani,Italian,18,Female,Non-Veg,364,22,2.9,UPI,Karan,Delivered,5.6,1
+501,2025-02-09,Bangalore,Spice Kitchen,Italian,35,Male,Veg,2032,47,4.4,Cash,Aman,Delivered,13.4,2
+502,2025-03-20,Mumbai,Burger Hub,North Indian,45,Female,Veg,895,43,4.1,Cash,Rahul,Delivered,5.4,6
+503,2025-04-11,Ahmedabad,Spice Kitchen,Biryani,32,Female,Non-Veg,2373,26,2.8,Cash,Rahul,Delivered,10.7,1
+504,2025-06-22,Hyderabad,Pizza Point,Chinese,42,Female,Veg,1404,35,2.7,Cash,Arjun,Cancelled,12.3,5
+505,2025-02-10,Bangalore,Pizza Point,North Indian,29,Female,Veg,812,28,2.7,UPI,Aman,Cancelled,2.2,2
+506,2025-04-27,Ahmedabad,Burger Hub,Fast Food,38,Female,Veg,277,40,3.4,UPI,Mohit,Cancelled,11.0,4
+507,2025-05-17,Jaipur,Spice Kitchen,Fast Food,20,Female,Non-Veg,1305,33,4.3,UPI,Karan,Cancelled,7.2,2
+508,2025-06-13,Hyderabad,Chinese Bowl,Italian,30,Male,Veg,1991,19,3.9,Cash,Vikas,Cancelled,4.6,1
+509,2025-03-01,Pune,Spice Kitchen,Biryani,31,Male,Veg,2120,39,4.6,Cash,Karan,Delivered,8.8,6
+510,2025-01-22,Bangalore,Spice Kitchen,Italian,31,Male,Non-Veg,1479,43,4.6,Cash,Mohit,Cancelled,9.6,5
+511,2025-02-05,Mumbai,Royal Biryani,Biryani,45,Male,Non-Veg,252,32,4.6,Cash,Vikas,Delivered,7.0,1
+512,2025-04-30,Bangalore,Food Factory,North Indian,20,Male,Non-Veg,1686,27,3.5,Card,Arjun,Cancelled,9.9,3
+513,2025-04-10,Delhi,Food Factory,North Indian,27,Male,Non-Veg,1844,57,3.4,Cash,Arjun,Delivered,4.4,6
+514,2025-06-01,Pune,Urban Tadka,Italian,26,Female,Non-Veg,2171,43,2.6,Cash,Mohit,Delivered,10.3,2
+515,2025-01-15,Jaipur,Royal Biryani,North Indian,24,Male,Non-Veg,1373,43,4.8,Cash,Mohit,Delivered,1.6,1
+516,2025-02-14,Ahmedabad,Food Factory,North Indian,30,Male,Non-Veg,1630,19,2.9,Cash,Arjun,Cancelled,4.1,1
+517,2025-01-21,Bangalore,Tandoori Nights,North Indian,45,Female,Non-Veg,1671,43,5.0,Cash,Rahul,Cancelled,3.5,4
+518,2025-03-30,Hyderabad,Spice Kitchen,Biryani,40,Female,Veg,930,34,4.9,Card,Vikas,Delivered,9.9,1
+519,2025-05-23,Jaipur,Urban Tadka,Chinese,37,Female,Veg,188,43,4.2,Cash,Arjun,Cancelled,5.2,2
+520,2025-05-27,Ahmedabad,Food Factory,Italian,24,Female,Non-Veg,2497,37,4.5,Cash,Aman,Delivered,9.1,1
+521,2025-05-31,Pune,Urban Tadka,Italian,33,Male,Non-Veg,2404,53,4.4,Cash,Aman,Cancelled,11.8,2
+522,2025-03-25,Bangalore,Burger Hub,Italian,27,Male,Non-Veg,993,33,3.8,Card,Rahul,Delivered,14.8,4
+523,2025-03-29,Delhi,Pizza Point,Italian,29,Male,Veg,858,41,4.3,UPI,Vikas,Delivered,14.5,3
+524,2025-03-06,Hyderabad,Urban Tadka,Italian,38,Female,Non-Veg,2448,36,3.1,Card,Aman,Delivered,5.6,3
+525,2025-02-20,Hyderabad,Urban Tadka,Italian,28,Male,Non-Veg,1304,15,3.8,Cash,Rahul,Delivered,6.1,6
+526,2025-04-05,Jaipur,Pizza Point,Biryani,23,Female,Non-Veg,505,52,4.8,Cash,Vikas,Cancelled,8.4,6
+527,2025-01-11,Jaipur,Urban Tadka,Biryani,43,Female,Veg,2097,46,3.3,UPI,Rahul,Cancelled,9.5,1
+528,2025-03-02,Mumbai,Food Factory,North Indian,24,Male,Veg,2343,58,4.6,Cash,Karan,Cancelled,10.3,2
+529,2025-06-20,Ahmedabad,Food Factory,Fast Food,34,Female,Veg,334,60,3.4,UPI,Vikas,Cancelled,2.6,2
+530,2025-05-12,Pune,Spice Kitchen,North Indian,34,Male,Non-Veg,668,34,3.0,Cash,Karan,Delivered,14.1,3
+531,2025-04-12,Mumbai,Tandoori Nights,North Indian,33,Female,Veg,965,49,3.8,UPI,Arjun,Cancelled,11.8,6
+532,2025-02-27,Pune,Pizza Point,Italian,22,Male,Veg,2438,56,3.3,Card,Aman,Cancelled,2.5,5
+533,2025-01-12,Jaipur,Urban Tadka,Fast Food,33,Female,Non-Veg,1383,49,4.6,UPI,Karan,Delivered,2.1,3
+534,2025-06-23,Pune,Urban Tadka,Chinese,41,Male,Veg,2314,60,4.6,UPI,Mohit,Delivered,1.2,4
+535,2025-04-23,Pune,Royal Biryani,Italian,18,Female,Non-Veg,2313,17,3.2,Cash,Rahul,Delivered,4.4,1
+536,2025-06-12,Ahmedabad,Royal Biryani,Chinese,33,Female,Non-Veg,163,42,3.5,UPI,Mohit,Delivered,8.0,5
+537,2025-01-11,Bangalore,Spice Kitchen,Fast Food,42,Female,Veg,744,47,3.5,UPI,Mohit,Cancelled,4.9,1
+538,2025-03-03,Delhi,Chinese Bowl,Italian,36,Male,Veg,2270,28,2.8,UPI,Vikas,Delivered,5.4,1
+539,2025-01-13,Bangalore,Spice Kitchen,North Indian,20,Female,Non-Veg,1014,41,3.3,Card,Arjun,Delivered,3.0,6
+540,2025-06-02,Bangalore,Chinese Bowl,Chinese,19,Female,Veg,1518,22,4.3,Cash,Aman,Delivered,11.1,6
+541,2025-03-27,Ahmedabad,Spice Kitchen,North Indian,38,Female,Veg,2173,51,4.4,Card,Aman,Delivered,5.6,6
+542,2025-04-18,Delhi,Urban Tadka,Chinese,35,Female,Non-Veg,753,42,3.2,Cash,Mohit,Delivered,7.2,3
+543,2025-01-30,Bangalore,Chinese Bowl,Fast Food,23,Male,Non-Veg,301,30,3.9,UPI,Aman,Cancelled,13.2,6
+544,2025-03-24,Delhi,Food Factory,Chinese,32,Female,Non-Veg,1969,39,2.8,UPI,Vikas,Delivered,5.9,6
+545,2025-04-28,Mumbai,Burger Hub,Fast Food,41,Male,Veg,1973,57,3.9,Card,Rahul,Delivered,10.7,1
+546,2025-04-18,Bangalore,Food Factory,Biryani,40,Male,Veg,1950,36,3.0,Cash,Aman,Cancelled,9.6,2
+547,2025-05-13,Jaipur,Pizza Point,Italian,45,Male,Veg,1175,41,4.8,UPI,Arjun,Cancelled,12.8,4
+548,2025-02-01,Jaipur,Food Factory,Chinese,45,Female,Veg,2260,32,3.1,Card,Arjun,Cancelled,7.3,6
+549,2025-02-09,Jaipur,Royal Biryani,Fast Food,24,Male,Veg,1968,23,4.7,Card,Vikas,Delivered,6.5,3
+550,2025-04-14,Hyderabad,Chinese Bowl,Fast Food,22,Female,Veg,1892,56,3.1,Card,Vikas,Delivered,6.3,3
+551,2025-02-04,Mumbai,Tandoori Nights,Fast Food,34,Male,Veg,875,56,3.3,Card,Mohit,Cancelled,1.0,6
+552,2025-04-21,Mumbai,Pizza Point,Italian,20,Male,Veg,1365,50,3.7,Card,Rahul,Cancelled,12.5,3
+553,2025-06-23,Hyderabad,Burger Hub,Biryani,38,Male,Veg,243,25,3.9,Card,Aman,Cancelled,3.7,4
+554,2025-05-20,Hyderabad,Tandoori Nights,Fast Food,19,Female,Non-Veg,630,40,4.1,Cash,Mohit,Cancelled,10.9,6
+555,2025-02-20,Hyderabad,Tandoori Nights,Italian,26,Female,Veg,1108,17,2.7,Cash,Vikas,Delivered,10.2,3
+556,2025-03-10,Mumbai,Spice Kitchen,Biryani,34,Female,Veg,604,50,2.9,UPI,Vikas,Cancelled,2.9,6
+557,2025-04-18,Pune,Chinese Bowl,Chinese,19,Female,Veg,225,56,3.3,UPI,Aman,Delivered,11.9,2
+558,2025-03-19,Jaipur,Pizza Point,Biryani,39,Male,Non-Veg,786,49,4.1,Cash,Rahul,Delivered,7.3,4
+559,2025-04-14,Mumbai,Spice Kitchen,Italian,30,Male,Non-Veg,2411,30,3.5,UPI,Mohit,Cancelled,9.5,4
+560,2025-01-25,Hyderabad,Pizza Point,Biryani,26,Male,Veg,1494,35,4.7,UPI,Mohit,Delivered,2.4,6
+561,2025-04-18,Hyderabad,Royal Biryani,Italian,19,Male,Non-Veg,661,38,3.4,Card,Rahul,Cancelled,7.4,1
+562,2025-03-28,Jaipur,Tandoori Nights,Biryani,21,Female,Veg,1596,60,4.2,Cash,Arjun,Cancelled,11.6,5
+563,2025-06-01,Jaipur,Chinese Bowl,Italian,22,Male,Non-Veg,496,59,3.0,Cash,Aman,Delivered,12.3,5
+564,2025-03-14,Pune,Spice Kitchen,Fast Food,35,Male,Veg,1170,21,4.2,Card,Karan,Delivered,14.0,1
+565,2025-02-27,Delhi,Food Factory,Chinese,30,Male,Veg,2310,51,3.5,Cash,Vikas,Delivered,14.4,2
+566,2025-06-24,Jaipur,Royal Biryani,Biryani,41,Female,Veg,1640,42,4.7,Card,Mohit,Cancelled,2.8,5
+567,2025-06-19,Pune,Tandoori Nights,North Indian,40,Female,Veg,186,36,3.7,Cash,Vikas,Delivered,10.1,1
+568,2025-02-01,Bangalore,Pizza Point,North Indian,36,Female,Non-Veg,1103,31,4.1,Card,Aman,Cancelled,13.7,5
+569,2025-04-24,Pune,Royal Biryani,Biryani,37,Female,Non-Veg,1040,42,2.7,UPI,Mohit,Cancelled,11.0,5
+570,2025-04-19,Ahmedabad,Food Factory,Chinese,25,Male,Veg,1547,16,3.5,Cash,Aman,Delivered,8.4,3
+571,2025-06-22,Hyderabad,Urban Tadka,Biryani,41,Female,Veg,2079,44,3.7,Cash,Karan,Delivered,2.4,5
+572,2025-03-24,Mumbai,Burger Hub,Fast Food,45,Male,Veg,1260,38,4.3,Card,Aman,Cancelled,1.1,3
+573,2025-03-31,Bangalore,Pizza Point,Italian,28,Female,Non-Veg,732,26,4.5,UPI,Mohit,Delivered,7.5,6
+574,2025-03-22,Mumbai,Pizza Point,North Indian,29,Male,Non-Veg,2340,31,4.9,Cash,Mohit,Delivered,2.1,5
+575,2025-03-09,Ahmedabad,Tandoori Nights,North Indian,36,Female,Non-Veg,225,37,3.5,Cash,Vikas,Delivered,6.1,5
+576,2025-01-16,Mumbai,Chinese Bowl,North Indian,37,Female,Veg,2330,59,3.1,UPI,Rahul,Delivered,11.4,4
+577,2025-04-26,Hyderabad,Food Factory,Chinese,40,Female,Non-Veg,2092,57,4.5,Cash,Karan,Delivered,2.2,1
+578,2025-05-19,Pune,Burger Hub,Chinese,43,Female,Non-Veg,908,41,3.5,Card,Vikas,Cancelled,3.7,6
+579,2025-01-24,Hyderabad,Spice Kitchen,Chinese,26,Female,Veg,171,16,4.0,Cash,Vikas,Delivered,1.8,3
+580,2025-03-02,Mumbai,Pizza Point,Fast Food,24,Male,Veg,590,29,3.1,Cash,Mohit,Delivered,5.5,3
+581,2025-05-02,Mumbai,Urban Tadka,Fast Food,40,Male,Non-Veg,1708,43,3.0,UPI,Arjun,Delivered,7.3,4
+582,2025-01-27,Delhi,Food Factory,Italian,45,Male,Veg,1838,45,4.9,Cash,Arjun,Delivered,9.5,4
+583,2025-05-08,Mumbai,Chinese Bowl,Italian,35,Male,Veg,1495,38,3.1,Card,Arjun,Delivered,4.5,6
+584,2025-04-11,Pune,Chinese Bowl,Fast Food,35,Male,Veg,1082,37,4.6,Cash,Aman,Delivered,5.3,4
+585,2025-02-16,Ahmedabad,Chinese Bowl,Fast Food,18,Female,Veg,299,48,3.6,UPI,Mohit,Delivered,3.8,3
+586,2025-04-16,Jaipur,Food Factory,Italian,38,Male,Non-Veg,976,15,4.9,Cash,Arjun,Delivered,1.5,3
+587,2025-01-04,Pune,Pizza Point,North Indian,42,Female,Non-Veg,1945,37,5.0,UPI,Arjun,Cancelled,3.0,1
+588,2025-02-10,Hyderabad,Chinese Bowl,Italian,36,Female,Non-Veg,231,33,3.4,Cash,Aman,Delivered,11.8,1
+589,2025-04-24,Hyderabad,Burger Hub,Biryani,31,Male,Non-Veg,523,22,3.2,Cash,Aman,Delivered,6.5,2
+590,2025-01-31,Ahmedabad,Tandoori Nights,Biryani,18,Female,Veg,2318,55,4.8,UPI,Aman,Delivered,11.5,2
+591,2025-02-14,Jaipur,Tandoori Nights,Fast Food,45,Male,Non-Veg,1931,57,2.8,Cash,Rahul,Cancelled,8.3,2
+592,2025-03-28,Bangalore,Food Factory,Fast Food,40,Male,Non-Veg,318,36,4.3,Card,Rahul,Cancelled,14.0,4
+593,2025-01-20,Delhi,Pizza Point,North Indian,27,Male,Non-Veg,349,60,2.7,Card,Mohit,Delivered,3.9,6
+594,2025-02-02,Hyderabad,Food Factory,Biryani,36,Female,Non-Veg,1129,32,3.4,Card,Vikas,Cancelled,14.1,2
+595,2025-04-25,Jaipur,Chinese Bowl,North Indian,45,Female,Veg,2362,29,3.7,Card,Arjun,Cancelled,10.1,6
+596,2025-05-19,Hyderabad,Spice Kitchen,North Indian,21,Male,Veg,231,25,3.7,UPI,Mohit,Cancelled,6.1,2
+597,2025-05-04,Delhi,Royal Biryani,Chinese,45,Female,Veg,1847,31,3.4,Cash,Rahul,Delivered,8.1,3
+598,2025-06-02,Bangalore,Burger Hub,Chinese,20,Female,Non-Veg,991,45,4.7,UPI,Mohit,Cancelled,8.9,1
+599,2025-01-02,Jaipur,Spice Kitchen,Biryani,35,Male,Non-Veg,2322,19,4.1,UPI,Mohit,Cancelled,2.1,1
+600,2025-02-13,Bangalore,Tandoori Nights,North Indian,24,Female,Non-Veg,958,31,3.5,UPI,Arjun,Cancelled,4.3,4
+601,2025-04-16,Delhi,Urban Tadka,Biryani,23,Male,Veg,1288,24,4.1,Card,Rahul,Delivered,7.9,2
+602,2025-02-22,Mumbai,Spice Kitchen,Chinese,30,Male,Non-Veg,1584,59,4.7,Card,Arjun,Delivered,14.7,1
+603,2025-06-01,Pune,Burger Hub,North Indian,39,Male,Veg,580,38,3.1,Card,Karan,Cancelled,6.2,6
+604,2025-04-12,Pune,Urban Tadka,Biryani,35,Male,Veg,1375,28,3.0,Card,Karan,Cancelled,13.7,4
+605,2025-05-01,Mumbai,Pizza Point,Fast Food,43,Female,Non-Veg,1249,34,5.0,Cash,Arjun,Cancelled,10.9,4
+606,2025-06-28,Delhi,Chinese Bowl,Fast Food,29,Male,Non-Veg,820,49,4.6,Cash,Aman,Cancelled,7.8,1
+607,2025-02-13,Bangalore,Chinese Bowl,Italian,33,Female,Non-Veg,1741,54,2.8,UPI,Arjun,Delivered,14.6,3
+608,2025-02-08,Jaipur,Tandoori Nights,Italian,41,Female,Non-Veg,171,24,2.8,UPI,Vikas,Delivered,6.6,4
+609,2025-02-03,Pune,Chinese Bowl,Biryani,36,Male,Veg,1519,59,2.6,UPI,Mohit,Delivered,13.6,3
+610,2025-04-06,Bangalore,Chinese Bowl,Italian,30,Female,Veg,1278,48,4.7,UPI,Karan,Cancelled,3.5,6
+611,2025-05-21,Delhi,Food Factory,Fast Food,43,Male,Non-Veg,2220,59,4.3,UPI,Aman,Delivered,6.0,2
+612,2025-05-01,Delhi,Chinese Bowl,Italian,26,Male,Non-Veg,667,18,4.6,Card,Rahul,Cancelled,13.1,2
+613,2025-02-27,Bangalore,Royal Biryani,Fast Food,18,Male,Non-Veg,1229,30,3.8,Card,Vikas,Delivered,14.4,5
+614,2025-01-13,Jaipur,Spice Kitchen,Chinese,38,Male,Non-Veg,697,45,2.5,UPI,Arjun,Cancelled,5.3,1
+615,2025-03-23,Bangalore,Pizza Point,Chinese,30,Female,Non-Veg,789,31,4.4,UPI,Rahul,Delivered,8.1,2
+616,2025-04-26,Mumbai,Pizza Point,Italian,32,Female,Non-Veg,893,26,2.9,Cash,Aman,Cancelled,2.3,1
+617,2025-04-19,Mumbai,Food Factory,North Indian,25,Male,Veg,1475,20,4.1,Cash,Mohit,Cancelled,2.4,6
+618,2025-01-09,Hyderabad,Spice Kitchen,Biryani,34,Male,Non-Veg,1977,35,2.7,Cash,Arjun,Delivered,2.7,1
+619,2025-03-28,Delhi,Food Factory,Italian,37,Male,Non-Veg,1597,22,4.1,Cash,Rahul,Cancelled,2.7,2
+620,2025-06-27,Mumbai,Burger Hub,Biryani,22,Male,Veg,466,26,3.2,Cash,Rahul,Delivered,2.3,3
+621,2025-03-03,Pune,Burger Hub,Chinese,37,Male,Non-Veg,2226,48,2.6,UPI,Rahul,Delivered,10.1,1
+622,2025-01-28,Jaipur,Royal Biryani,Fast Food,35,Female,Non-Veg,2101,17,4.0,UPI,Aman,Cancelled,13.0,3
+623,2025-06-23,Bangalore,Chinese Bowl,Biryani,30,Female,Veg,364,52,4.6,Card,Karan,Delivered,11.0,1
+624,2025-05-10,Jaipur,Tandoori Nights,Biryani,37,Female,Non-Veg,529,33,2.8,UPI,Mohit,Delivered,8.5,2
+625,2025-04-09,Hyderabad,Chinese Bowl,Chinese,29,Female,Non-Veg,709,34,4.8,Cash,Rahul,Cancelled,2.0,6
+626,2025-06-09,Delhi,Burger Hub,Italian,28,Female,Non-Veg,1370,25,3.4,UPI,Aman,Cancelled,9.2,1
+627,2025-01-30,Mumbai,Royal Biryani,North Indian,27,Female,Non-Veg,2420,59,4.8,Cash,Aman,Cancelled,4.9,4
+628,2025-01-14,Bangalore,Urban Tadka,North Indian,28,Female,Veg,503,54,2.5,Card,Karan,Cancelled,14.0,2
+629,2025-01-23,Bangalore,Burger Hub,Italian,40,Female,Veg,2199,17,2.6,Cash,Mohit,Delivered,9.4,1
+630,2025-03-30,Delhi,Pizza Point,Biryani,42,Male,Veg,508,32,3.7,Cash,Vikas,Delivered,3.6,5
+631,2025-06-30,Jaipur,Burger Hub,North Indian,20,Female,Veg,1492,26,4.4,UPI,Karan,Delivered,13.5,6
+632,2025-02-25,Mumbai,Pizza Point,North Indian,43,Female,Non-Veg,2165,20,3.3,UPI,Mohit,Delivered,7.9,3
+633,2025-03-07,Ahmedabad,Royal Biryani,Chinese,32,Female,Non-Veg,1408,60,3.8,UPI,Rahul,Cancelled,7.8,6
+634,2025-04-08,Delhi,Royal Biryani,Fast Food,19,Female,Non-Veg,585,20,2.7,UPI,Vikas,Delivered,15.0,5
+635,2025-04-20,Bangalore,Food Factory,Biryani,36,Male,Veg,2078,23,4.2,Cash,Aman,Cancelled,7.9,4
+636,2025-05-22,Ahmedabad,Burger Hub,Italian,30,Male,Non-Veg,2234,19,4.1,UPI,Karan,Delivered,5.0,1
+637,2025-06-16,Mumbai,Royal Biryani,Italian,44,Male,Non-Veg,196,41,3.4,Card,Aman,Cancelled,7.9,5
+638,2025-05-11,Bangalore,Pizza Point,North Indian,29,Male,Veg,2340,18,3.7,Cash,Rahul,Delivered,5.8,5
+639,2025-06-28,Jaipur,Royal Biryani,Biryani,34,Male,Veg,554,37,3.2,Card,Mohit,Delivered,14.4,2
+640,2025-04-04,Jaipur,Burger Hub,Biryani,45,Male,Veg,1024,39,5.0,Cash,Mohit,Cancelled,8.4,3
+641,2025-05-20,Jaipur,Food Factory,North Indian,43,Male,Non-Veg,460,27,4.7,Cash,Mohit,Cancelled,15.0,1
+642,2025-02-19,Pune,Food Factory,North Indian,28,Male,Veg,1664,23,4.9,Card,Rahul,Cancelled,12.5,6
+643,2025-06-21,Pune,Spice Kitchen,Italian,20,Female,Non-Veg,969,33,3.7,Card,Aman,Delivered,1.9,3
+644,2025-01-20,Pune,Spice Kitchen,Italian,30,Female,Veg,2332,28,4.1,Cash,Mohit,Cancelled,12.5,5
+645,2025-03-12,Ahmedabad,Chinese Bowl,Chinese,24,Male,Veg,1813,42,2.6,Cash,Rahul,Delivered,14.7,5
+646,2025-02-07,Hyderabad,Royal Biryani,Biryani,31,Male,Non-Veg,1932,60,3.5,Cash,Mohit,Cancelled,1.9,5
+647,2025-02-18,Ahmedabad,Spice Kitchen,Biryani,29,Male,Non-Veg,311,37,4.2,Cash,Rahul,Cancelled,13.9,2
+648,2025-03-23,Pune,Pizza Point,Italian,39,Female,Non-Veg,1502,33,3.1,Card,Mohit,Cancelled,11.1,6
+649,2025-04-20,Bangalore,Pizza Point,Italian,21,Female,Veg,1580,26,4.0,Card,Vikas,Delivered,13.7,2
+650,2025-03-04,Hyderabad,Spice Kitchen,Fast Food,22,Female,Veg,449,58,3.7,Card,Arjun,Cancelled,11.4,3
+651,2025-05-02,Jaipur,Pizza Point,North Indian,20,Female,Veg,1678,34,3.4,Card,Vikas,Delivered,3.9,2
+652,2025-01-17,Ahmedabad,Food Factory,Italian,45,Female,Veg,1923,16,4.6,UPI,Vikas,Cancelled,9.6,5
+653,2025-03-22,Bangalore,Spice Kitchen,Fast Food,36,Male,Non-Veg,1275,27,2.8,Cash,Mohit,Cancelled,12.6,6
+654,2025-03-12,Delhi,Pizza Point,Chinese,44,Male,Non-Veg,382,20,2.9,Card,Arjun,Delivered,6.3,5
+655,2025-03-20,Mumbai,Burger Hub,Chinese,24,Male,Veg,2242,20,5.0,Card,Karan,Cancelled,2.6,4
+656,2025-03-23,Bangalore,Burger Hub,Fast Food,40,Male,Non-Veg,1571,17,3.2,UPI,Arjun,Cancelled,14.0,1
+657,2025-05-22,Ahmedabad,Food Factory,Biryani,19,Male,Veg,2464,47,2.5,UPI,Rahul,Delivered,10.2,5
+658,2025-01-29,Pune,Urban Tadka,Biryani,23,Male,Non-Veg,2152,17,3.0,Cash,Aman,Delivered,2.7,1
+659,2025-05-31,Pune,Chinese Bowl,Chinese,19,Female,Veg,1748,59,3.7,UPI,Arjun,Cancelled,14.3,3
+660,2025-04-30,Ahmedabad,Burger Hub,Fast Food,29,Male,Non-Veg,2171,18,4.9,UPI,Vikas,Delivered,10.5,5
+661,2025-05-30,Bangalore,Urban Tadka,Italian,43,Female,Veg,280,15,3.1,Card,Aman,Delivered,2.2,5
+662,2025-02-27,Delhi,Spice Kitchen,Italian,42,Female,Veg,2415,38,4.9,Card,Aman,Cancelled,7.5,4
+663,2025-02-17,Ahmedabad,Pizza Point,Fast Food,38,Male,Non-Veg,1597,38,2.7,UPI,Mohit,Delivered,6.1,4
+664,2025-02-21,Bangalore,Spice Kitchen,Fast Food,23,Male,Non-Veg,2256,30,3.6,Cash,Karan,Cancelled,1.2,4
+665,2025-02-27,Bangalore,Urban Tadka,Fast Food,29,Female,Veg,1026,37,3.2,Card,Vikas,Delivered,3.9,1
+666,2025-01-24,Mumbai,Tandoori Nights,Chinese,45,Male,Veg,321,57,3.2,Card,Vikas,Delivered,10.3,2
+667,2025-04-24,Pune,Food Factory,Biryani,21,Male,Veg,513,50,3.6,Card,Arjun,Delivered,13.7,5
+668,2025-05-16,Mumbai,Urban Tadka,Chinese,20,Male,Veg,2319,41,2.6,Cash,Mohit,Delivered,11.7,3
+669,2025-01-18,Pune,Urban Tadka,Italian,33,Male,Veg,839,45,4.6,UPI,Aman,Cancelled,11.2,6
+670,2025-06-12,Jaipur,Burger Hub,Chinese,24,Male,Veg,381,25,3.0,Cash,Aman,Delivered,4.0,3
+671,2025-01-22,Pune,Chinese Bowl,Chinese,29,Female,Veg,2168,47,4.6,UPI,Karan,Delivered,13.5,5
+672,2025-06-20,Pune,Spice Kitchen,Chinese,24,Female,Veg,1051,27,3.3,UPI,Vikas,Delivered,11.7,5
+673,2025-04-03,Delhi,Tandoori Nights,Italian,34,Female,Veg,1813,52,4.3,Card,Vikas,Delivered,4.1,1
+674,2025-02-08,Ahmedabad,Royal Biryani,North Indian,28,Male,Non-Veg,2257,45,3.9,UPI,Mohit,Delivered,4.6,5
+675,2025-06-29,Jaipur,Chinese Bowl,Chinese,23,Male,Non-Veg,1639,15,4.3,Cash,Vikas,Delivered,14.6,6
+676,2025-06-11,Hyderabad,Pizza Point,Biryani,33,Female,Non-Veg,2231,50,4.1,UPI,Rahul,Cancelled,13.4,3
+677,2025-03-09,Ahmedabad,Pizza Point,Fast Food,18,Male,Non-Veg,1167,17,4.5,Card,Rahul,Cancelled,6.5,3
+678,2025-05-27,Mumbai,Urban Tadka,Biryani,33,Male,Non-Veg,2179,25,4.6,Card,Vikas,Delivered,8.1,5
+679,2025-02-16,Ahmedabad,Burger Hub,Fast Food,27,Female,Veg,1583,44,2.7,Cash,Vikas,Cancelled,12.5,1
+680,2025-03-18,Hyderabad,Urban Tadka,Chinese,26,Female,Non-Veg,2320,43,4.2,Card,Vikas,Delivered,2.5,1
+681,2025-03-09,Bangalore,Pizza Point,North Indian,44,Male,Veg,1452,48,4.8,Card,Aman,Delivered,9.1,6
+682,2025-03-29,Mumbai,Spice Kitchen,Italian,43,Female,Veg,701,20,3.1,Cash,Aman,Delivered,8.8,1
+683,2025-04-26,Ahmedabad,Spice Kitchen,Italian,41,Male,Non-Veg,1442,49,3.9,UPI,Mohit,Cancelled,8.2,5
+684,2025-03-08,Jaipur,Royal Biryani,Fast Food,45,Female,Veg,895,58,5.0,Card,Mohit,Delivered,5.0,3
+685,2025-04-02,Ahmedabad,Pizza Point,North Indian,33,Female,Non-Veg,1485,44,2.8,Card,Arjun,Cancelled,5.0,3
+686,2025-02-17,Ahmedabad,Pizza Point,Biryani,45,Male,Veg,665,60,3.4,Card,Vikas,Cancelled,5.3,1
+687,2025-03-05,Mumbai,Burger Hub,Biryani,26,Female,Veg,654,47,3.3,UPI,Rahul,Delivered,10.8,5
+688,2025-01-11,Pune,Chinese Bowl,Chinese,38,Female,Veg,1792,20,3.7,UPI,Vikas,Delivered,2.8,6
+689,2025-01-12,Pune,Pizza Point,Fast Food,38,Male,Non-Veg,2134,29,3.5,UPI,Karan,Delivered,1.9,5
+690,2025-05-12,Mumbai,Chinese Bowl,Biryani,35,Female,Non-Veg,1038,48,4.5,Cash,Aman,Cancelled,8.3,6
+691,2025-02-08,Mumbai,Burger Hub,Fast Food,34,Female,Veg,2262,15,4.5,Card,Karan,Delivered,11.4,4
+692,2025-03-22,Jaipur,Tandoori Nights,Chinese,33,Female,Non-Veg,1153,34,3.4,Card,Mohit,Cancelled,3.2,6
+693,2025-03-16,Hyderabad,Urban Tadka,Biryani,21,Female,Veg,2090,53,3.5,Cash,Vikas,Cancelled,11.7,4
+694,2025-04-11,Pune,Tandoori Nights,Chinese,29,Male,Veg,380,27,3.3,UPI,Arjun,Cancelled,7.9,6
+695,2025-06-17,Ahmedabad,Urban Tadka,Chinese,25,Female,Veg,1493,32,2.6,UPI,Arjun,Cancelled,13.6,2
+696,2025-06-28,Bangalore,Spice Kitchen,North Indian,38,Male,Veg,361,20,3.2,Cash,Arjun,Delivered,9.7,6
+697,2025-01-20,Hyderabad,Food Factory,Chinese,23,Male,Veg,453,17,4.6,Card,Aman,Delivered,3.6,2
+698,2025-01-10,Hyderabad,Pizza Point,Italian,22,Male,Veg,725,20,3.5,Cash,Aman,Delivered,8.6,3
+699,2025-01-11,Delhi,Pizza Point,Biryani,41,Male,Veg,1693,32,4.2,Card,Arjun,Delivered,3.2,6
+700,2025-01-10,Pune,Chinese Bowl,Italian,23,Male,Veg,1189,17,3.7,Cash,Arjun,Cancelled,1.1,5
+701,2025-04-03,Pune,Spice Kitchen,Fast Food,38,Female,Non-Veg,284,27,3.9,Cash,Rahul,Cancelled,12.3,1
+702,2025-02-26,Hyderabad,Royal Biryani,Chinese,39,Female,Veg,2254,23,2.7,UPI,Arjun,Delivered,11.9,4
+703,2025-04-26,Mumbai,Chinese Bowl,North Indian,29,Male,Veg,2486,26,3.5,Cash,Arjun,Delivered,11.6,5
+704,2025-05-30,Hyderabad,Spice Kitchen,Chinese,36,Male,Veg,523,31,4.3,Card,Arjun,Cancelled,14.1,3
+705,2025-06-13,Bangalore,Pizza Point,Italian,42,Male,Veg,1448,49,4.8,Cash,Karan,Delivered,13.1,1
+706,2025-05-11,Pune,Pizza Point,Biryani,28,Male,Veg,875,29,4.7,UPI,Arjun,Cancelled,14.1,5
+707,2025-02-16,Bangalore,Urban Tadka,North Indian,20,Female,Veg,243,22,2.8,UPI,Aman,Cancelled,9.0,3
+708,2025-05-15,Mumbai,Burger Hub,Biryani,21,Male,Veg,1807,17,2.7,Cash,Arjun,Cancelled,12.2,1
+709,2025-06-04,Mumbai,Pizza Point,North Indian,36,Male,Non-Veg,608,30,3.8,Cash,Vikas,Delivered,9.5,3
+710,2025-06-30,Bangalore,Royal Biryani,Biryani,35,Female,Veg,2460,40,2.7,Cash,Rahul,Delivered,6.6,5
+711,2025-05-28,Hyderabad,Royal Biryani,Fast Food,41,Male,Non-Veg,389,60,4.3,UPI,Mohit,Delivered,1.2,2
+712,2025-02-14,Jaipur,Tandoori Nights,North Indian,18,Male,Veg,1585,54,4.9,UPI,Mohit,Cancelled,12.8,1
+713,2025-01-09,Mumbai,Tandoori Nights,Italian,22,Male,Veg,198,48,3.5,Card,Arjun,Cancelled,3.5,5
+714,2025-03-31,Mumbai,Royal Biryani,Chinese,44,Female,Non-Veg,1863,44,4.1,UPI,Aman,Cancelled,11.9,4
+715,2025-04-03,Pune,Chinese Bowl,Biryani,40,Female,Non-Veg,1148,15,3.9,Cash,Rahul,Delivered,6.6,3
+716,2025-03-09,Bangalore,Spice Kitchen,Biryani,29,Female,Veg,2304,51,3.4,Cash,Vikas,Cancelled,9.7,6
+717,2025-01-10,Pune,Food Factory,Chinese,36,Female,Veg,521,26,4.8,Cash,Arjun,Delivered,12.9,3
+718,2025-01-16,Hyderabad,Royal Biryani,Chinese,36,Male,Veg,1480,15,3.9,Card,Aman,Cancelled,11.6,3
+719,2025-01-03,Ahmedabad,Tandoori Nights,Fast Food,34,Female,Non-Veg,938,36,4.2,UPI,Rahul,Cancelled,7.9,4
+720,2025-01-31,Bangalore,Food Factory,North Indian,39,Female,Veg,2007,55,4.9,Card,Karan,Cancelled,2.0,6
+721,2025-04-02,Pune,Spice Kitchen,Biryani,19,Female,Veg,1268,45,3.4,UPI,Rahul,Cancelled,11.9,3
+722,2025-03-28,Pune,Tandoori Nights,North Indian,25,Male,Non-Veg,1487,21,3.0,Card,Rahul,Delivered,11.7,4
+723,2025-02-25,Mumbai,Pizza Point,Fast Food,25,Female,Veg,535,33,2.8,Card,Karan,Delivered,14.5,4
+724,2025-02-22,Ahmedabad,Royal Biryani,Chinese,27,Female,Veg,2319,18,3.3,Card,Aman,Delivered,13.4,1
+725,2025-02-05,Pune,Spice Kitchen,Fast Food,18,Male,Non-Veg,949,52,4.8,Cash,Vikas,Cancelled,2.4,3
+726,2025-01-17,Pune,Burger Hub,Biryani,37,Male,Veg,1614,29,2.9,Card,Arjun,Cancelled,7.3,1
+727,2025-01-03,Pune,Pizza Point,Italian,32,Female,Non-Veg,1615,54,4.2,Card,Karan,Cancelled,7.3,4
+728,2025-02-28,Jaipur,Tandoori Nights,North Indian,30,Female,Veg,974,15,2.9,Cash,Rahul,Cancelled,7.4,1
+729,2025-03-24,Ahmedabad,Spice Kitchen,Fast Food,22,Female,Non-Veg,1697,57,3.8,Card,Mohit,Cancelled,2.4,6
+730,2025-05-23,Ahmedabad,Pizza Point,Fast Food,45,Female,Veg,726,23,4.9,UPI,Mohit,Cancelled,8.3,2
+731,2025-05-15,Bangalore,Burger Hub,Fast Food,19,Female,Veg,1788,56,3.9,Cash,Mohit,Delivered,12.8,6
+732,2025-02-06,Ahmedabad,Urban Tadka,North Indian,22,Male,Non-Veg,1247,41,4.5,Card,Arjun,Cancelled,1.8,2
+733,2025-06-12,Delhi,Tandoori Nights,Biryani,41,Male,Non-Veg,2492,53,4.3,Cash,Karan,Cancelled,10.5,1
+734,2025-04-05,Mumbai,Chinese Bowl,Fast Food,44,Female,Non-Veg,1765,40,4.0,Cash,Rahul,Cancelled,14.7,5
+735,2025-01-25,Ahmedabad,Spice Kitchen,Fast Food,18,Female,Non-Veg,2490,20,3.2,UPI,Mohit,Cancelled,5.4,1
+736,2025-03-05,Ahmedabad,Tandoori Nights,Chinese,23,Male,Non-Veg,707,32,4.8,Cash,Arjun,Cancelled,8.3,3
+737,2025-06-09,Ahmedabad,Pizza Point,Fast Food,39,Female,Non-Veg,1728,37,4.1,UPI,Rahul,Cancelled,10.1,1
+738,2025-05-07,Hyderabad,Spice Kitchen,Fast Food,36,Female,Non-Veg,1675,22,3.1,Card,Rahul,Cancelled,1.8,3
+739,2025-04-11,Pune,Royal Biryani,Fast Food,27,Male,Veg,1676,52,4.9,Cash,Rahul,Cancelled,4.1,2
+740,2025-05-09,Bangalore,Royal Biryani,Biryani,39,Male,Veg,228,22,3.6,Cash,Rahul,Delivered,7.0,3
+741,2025-04-29,Ahmedabad,Pizza Point,Fast Food,40,Male,Non-Veg,770,16,4.7,UPI,Rahul,Delivered,13.6,6
+742,2025-01-11,Hyderabad,Pizza Point,Biryani,27,Male,Veg,1379,35,3.3,Cash,Arjun,Delivered,15.0,5
+743,2025-03-17,Jaipur,Tandoori Nights,Chinese,43,Female,Non-Veg,1055,27,5.0,Cash,Mohit,Cancelled,7.6,6
+744,2025-02-08,Hyderabad,Chinese Bowl,Chinese,45,Male,Non-Veg,1227,42,4.3,Cash,Vikas,Delivered,13.9,6
+745,2025-05-17,Bangalore,Spice Kitchen,North Indian,28,Female,Non-Veg,151,24,5.0,Cash,Karan,Cancelled,1.2,3
+746,2025-01-03,Ahmedabad,Tandoori Nights,Fast Food,43,Male,Veg,2474,59,3.7,Card,Rahul,Cancelled,7.9,4
+747,2025-05-26,Bangalore,Chinese Bowl,Italian,36,Male,Non-Veg,1695,15,4.7,Card,Aman,Cancelled,14.3,4
+748,2025-06-04,Pune,Burger Hub,Biryani,27,Male,Veg,1631,40,4.3,Cash,Karan,Delivered,3.7,5
+749,2025-02-09,Ahmedabad,Food Factory,Biryani,33,Female,Non-Veg,2154,44,3.6,Cash,Arjun,Delivered,14.7,2
+750,2025-03-03,Hyderabad,Burger Hub,Fast Food,37,Female,Non-Veg,948,38,4.6,Cash,Mohit,Delivered,4.9,1
+751,2025-03-21,Delhi,Pizza Point,Chinese,44,Female,Non-Veg,1747,39,3.6,UPI,Vikas,Cancelled,5.0,3
+752,2025-02-09,Bangalore,Food Factory,North Indian,23,Male,Non-Veg,702,39,4.8,UPI,Vikas,Delivered,12.9,6
+753,2025-05-09,Bangalore,Spice Kitchen,North Indian,42,Female,Non-Veg,906,18,3.9,Cash,Arjun,Cancelled,9.4,3
+754,2025-02-18,Ahmedabad,Urban Tadka,Chinese,19,Male,Non-Veg,2397,58,4.8,UPI,Mohit,Cancelled,9.6,4
+755,2025-04-01,Mumbai,Urban Tadka,Biryani,23,Male,Veg,1838,51,4.5,UPI,Karan,Delivered,5.3,3
+756,2025-01-28,Delhi,Pizza Point,Italian,26,Female,Veg,2002,33,2.7,UPI,Arjun,Cancelled,6.0,6
+757,2025-05-17,Mumbai,Royal Biryani,North Indian,31,Female,Veg,698,18,3.3,Cash,Aman,Cancelled,14.0,6
+758,2025-01-26,Mumbai,Urban Tadka,Fast Food,40,Male,Veg,1591,17,4.8,Card,Karan,Cancelled,8.2,6
+759,2025-05-08,Bangalore,Royal Biryani,Fast Food,36,Female,Non-Veg,1527,42,4.7,UPI,Aman,Cancelled,13.8,6
+760,2025-02-18,Ahmedabad,Chinese Bowl,Chinese,27,Male,Veg,623,54,3.7,UPI,Rahul,Delivered,7.8,5
+761,2025-03-19,Jaipur,Royal Biryani,Fast Food,32,Male,Non-Veg,2157,20,4.5,Card,Rahul,Cancelled,8.3,5
+762,2025-01-14,Mumbai,Urban Tadka,Fast Food,41,Female,Non-Veg,1177,33,4.0,UPI,Arjun,Delivered,7.9,3
+763,2025-01-20,Pune,Pizza Point,North Indian,37,Male,Non-Veg,2018,41,5.0,UPI,Mohit,Cancelled,3.9,5
+764,2025-01-23,Bangalore,Pizza Point,Italian,32,Male,Veg,1092,27,3.6,UPI,Aman,Delivered,8.8,6
+765,2025-01-30,Ahmedabad,Food Factory,Biryani,40,Male,Veg,1514,25,4.2,Cash,Rahul,Delivered,2.4,2
+766,2025-05-19,Jaipur,Chinese Bowl,Italian,32,Male,Non-Veg,1646,20,4.6,UPI,Rahul,Cancelled,14.3,4
+767,2025-02-11,Delhi,Tandoori Nights,Biryani,20,Male,Veg,2128,24,4.0,Card,Aman,Cancelled,12.9,4
+768,2025-01-09,Pune,Chinese Bowl,Chinese,30,Male,Non-Veg,557,17,3.1,Card,Rahul,Delivered,5.3,3
+769,2025-06-18,Mumbai,Pizza Point,Fast Food,34,Male,Non-Veg,1311,33,4.4,UPI,Karan,Cancelled,9.3,6
+770,2025-03-17,Delhi,Spice Kitchen,Biryani,19,Female,Non-Veg,1907,22,5.0,Card,Vikas,Delivered,14.0,4
+771,2025-05-23,Ahmedabad,Pizza Point,Fast Food,38,Male,Non-Veg,868,27,4.5,Cash,Aman,Cancelled,8.6,1
+772,2025-03-22,Hyderabad,Urban Tadka,Fast Food,24,Female,Veg,897,42,4.8,Card,Vikas,Cancelled,1.6,6
+773,2025-03-18,Ahmedabad,Burger Hub,Chinese,38,Female,Veg,2315,59,4.2,UPI,Vikas,Delivered,13.1,1
+774,2025-03-20,Pune,Royal Biryani,Fast Food,33,Female,Veg,1394,45,3.9,Cash,Rahul,Delivered,13.9,1
+775,2025-06-16,Bangalore,Pizza Point,Chinese,38,Female,Veg,1736,15,4.6,Card,Aman,Cancelled,8.1,1
+776,2025-06-24,Pune,Pizza Point,Biryani,42,Male,Veg,1629,27,4.4,Cash,Arjun,Delivered,3.3,6
+777,2025-06-18,Ahmedabad,Royal Biryani,Fast Food,39,Female,Veg,2224,38,3.5,UPI,Vikas,Delivered,3.3,4
+778,2025-02-06,Pune,Chinese Bowl,Biryani,21,Female,Veg,1022,42,4.8,UPI,Rahul,Delivered,3.8,6
+779,2025-05-13,Pune,Urban Tadka,Biryani,42,Male,Non-Veg,1773,54,4.2,Cash,Karan,Delivered,9.3,5
+780,2025-05-12,Bangalore,Burger Hub,North Indian,37,Female,Non-Veg,1799,43,3.7,Cash,Aman,Cancelled,11.6,2
+781,2025-03-23,Mumbai,Pizza Point,Italian,28,Female,Veg,1467,51,4.5,Card,Rahul,Cancelled,2.8,1
+782,2025-06-06,Delhi,Royal Biryani,Fast Food,23,Female,Veg,205,36,2.7,Cash,Arjun,Cancelled,12.0,6
+783,2025-01-25,Mumbai,Chinese Bowl,Italian,23,Male,Non-Veg,253,38,4.2,Cash,Aman,Delivered,13.2,4
+784,2025-03-23,Bangalore,Chinese Bowl,Fast Food,45,Male,Veg,357,30,4.3,UPI,Vikas,Cancelled,10.4,5
+785,2025-01-23,Ahmedabad,Tandoori Nights,Italian,32,Female,Non-Veg,1855,23,4.7,UPI,Karan,Delivered,14.9,2
+786,2025-03-16,Delhi,Burger Hub,Biryani,44,Female,Non-Veg,2385,58,4.2,UPI,Karan,Cancelled,14.2,2
+787,2025-05-22,Hyderabad,Tandoori Nights,Chinese,21,Male,Non-Veg,1561,58,3.7,UPI,Mohit,Delivered,6.6,4
+788,2025-04-07,Jaipur,Tandoori Nights,Biryani,35,Female,Veg,1185,53,4.2,Card,Aman,Cancelled,10.4,5
+789,2025-04-14,Ahmedabad,Chinese Bowl,Fast Food,21,Male,Veg,1529,34,3.0,UPI,Karan,Delivered,4.1,1
+790,2025-02-28,Bangalore,Food Factory,Biryani,19,Male,Veg,1326,28,4.7,Cash,Karan,Cancelled,3.4,5
+791,2025-02-16,Jaipur,Tandoori Nights,Fast Food,34,Male,Non-Veg,1227,60,3.8,UPI,Rahul,Cancelled,13.8,1
+792,2025-03-01,Hyderabad,Urban Tadka,Fast Food,35,Male,Non-Veg,639,26,4.3,UPI,Aman,Cancelled,13.7,1
+793,2025-05-22,Pune,Food Factory,Fast Food,43,Male,Non-Veg,396,35,3.0,Card,Arjun,Cancelled,6.5,3
+794,2025-05-25,Ahmedabad,Food Factory,Italian,23,Female,Non-Veg,2061,47,4.5,UPI,Arjun,Cancelled,7.7,1
+795,2025-03-18,Bangalore,Spice Kitchen,Fast Food,26,Female,Non-Veg,1901,41,4.2,Cash,Rahul,Cancelled,10.4,4
+796,2025-05-06,Bangalore,Chinese Bowl,North Indian,25,Male,Non-Veg,2033,34,4.7,Card,Mohit,Delivered,5.3,5
+797,2025-05-17,Bangalore,Burger Hub,North Indian,45,Male,Veg,577,52,4.7,Card,Karan,Cancelled,12.9,4
+798,2025-02-13,Bangalore,Pizza Point,North Indian,31,Male,Veg,191,33,2.5,Card,Karan,Cancelled,2.4,5
+799,2025-01-24,Pune,Royal Biryani,Biryani,29,Male,Non-Veg,1689,21,3.7,UPI,Rahul,Cancelled,4.1,3
+800,2025-04-22,Hyderabad,Urban Tadka,North Indian,19,Male,Veg,1013,41,4.2,Cash,Vikas,Delivered,8.4,3
+801,2025-06-23,Pune,Urban Tadka,Fast Food,29,Female,Veg,1965,36,2.9,Card,Vikas,Cancelled,10.4,6
+802,2025-02-15,Bangalore,Chinese Bowl,Italian,42,Female,Veg,2471,39,3.4,Card,Aman,Delivered,12.5,5
+803,2025-04-12,Pune,Spice Kitchen,Chinese,20,Male,Non-Veg,1928,29,3.8,Cash,Vikas,Delivered,12.8,6
+804,2025-01-13,Bangalore,Tandoori Nights,North Indian,31,Female,Non-Veg,337,38,4.7,Cash,Mohit,Cancelled,6.9,2
+805,2025-01-06,Bangalore,Urban Tadka,Italian,31,Female,Non-Veg,1804,41,2.5,UPI,Aman,Cancelled,12.7,4
+806,2025-06-10,Bangalore,Royal Biryani,North Indian,21,Male,Non-Veg,344,46,3.3,Cash,Aman,Delivered,11.4,3
+807,2025-06-13,Mumbai,Urban Tadka,North Indian,27,Male,Non-Veg,1336,29,3.0,UPI,Arjun,Cancelled,4.9,6
+808,2025-05-01,Hyderabad,Spice Kitchen,North Indian,39,Male,Non-Veg,2266,42,2.8,UPI,Mohit,Delivered,5.9,4
+809,2025-05-01,Pune,Spice Kitchen,North Indian,44,Female,Veg,192,26,3.5,Cash,Rahul,Cancelled,10.6,5
+810,2025-04-20,Jaipur,Spice Kitchen,North Indian,45,Male,Veg,323,48,3.2,Card,Aman,Delivered,11.5,2
+811,2025-05-20,Bangalore,Spice Kitchen,North Indian,40,Male,Non-Veg,1944,22,3.7,Card,Rahul,Cancelled,5.7,2
+812,2025-02-07,Jaipur,Pizza Point,Biryani,32,Male,Veg,1951,22,3.0,Card,Arjun,Delivered,2.9,1
+813,2025-02-01,Pune,Pizza Point,Chinese,40,Female,Non-Veg,394,39,4.1,Card,Rahul,Cancelled,8.9,4
+814,2025-06-30,Hyderabad,Pizza Point,Fast Food,29,Female,Veg,722,60,4.7,Card,Karan,Delivered,10.1,2
+815,2025-05-06,Hyderabad,Urban Tadka,Italian,26,Female,Veg,1002,33,3.6,Card,Rahul,Cancelled,11.1,3
+816,2025-05-11,Bangalore,Tandoori Nights,Fast Food,25,Female,Non-Veg,1350,25,3.6,Card,Karan,Delivered,10.6,3
+817,2025-05-19,Bangalore,Food Factory,North Indian,30,Female,Non-Veg,1445,26,5.0,Cash,Arjun,Delivered,9.5,3
+818,2025-02-28,Mumbai,Urban Tadka,Biryani,32,Male,Non-Veg,1987,21,3.3,Card,Aman,Cancelled,2.9,3
+819,2025-04-18,Jaipur,Urban Tadka,Biryani,36,Female,Veg,755,35,3.4,Cash,Arjun,Delivered,7.4,4
+820,2025-05-15,Bangalore,Food Factory,North Indian,20,Male,Veg,1982,47,3.6,Cash,Rahul,Cancelled,6.9,5
+821,2025-04-22,Jaipur,Food Factory,Fast Food,38,Male,Non-Veg,2253,37,4.4,Cash,Mohit,Delivered,6.9,5
+822,2025-06-18,Pune,Pizza Point,Biryani,39,Male,Veg,1193,57,4.3,Cash,Vikas,Delivered,1.3,2
+823,2025-05-15,Pune,Food Factory,Italian,27,Male,Veg,1833,19,2.9,Card,Vikas,Cancelled,2.2,3
+824,2025-04-05,Ahmedabad,Spice Kitchen,Chinese,31,Male,Non-Veg,1118,57,3.1,UPI,Mohit,Delivered,13.9,6
+825,2025-05-04,Mumbai,Food Factory,Chinese,37,Female,Veg,2424,58,4.2,Card,Vikas,Cancelled,2.5,2
+826,2025-05-14,Jaipur,Chinese Bowl,Chinese,35,Male,Veg,2155,43,2.9,UPI,Aman,Delivered,7.0,2
+827,2025-04-15,Ahmedabad,Urban Tadka,Italian,30,Female,Non-Veg,1022,24,2.5,Cash,Vikas,Cancelled,14.5,4
+828,2025-04-05,Bangalore,Food Factory,Chinese,20,Female,Non-Veg,1857,29,3.0,UPI,Rahul,Cancelled,10.1,5
+829,2025-05-16,Jaipur,Food Factory,North Indian,25,Female,Non-Veg,373,23,4.1,UPI,Rahul,Delivered,11.7,4
+830,2025-04-27,Delhi,Food Factory,Biryani,22,Female,Non-Veg,1668,16,3.9,Cash,Vikas,Cancelled,3.3,4
+831,2025-04-21,Ahmedabad,Spice Kitchen,North Indian,45,Male,Non-Veg,1088,30,2.9,Card,Karan,Delivered,1.4,6
+832,2025-06-29,Pune,Urban Tadka,Fast Food,41,Female,Non-Veg,534,25,3.2,UPI,Vikas,Cancelled,13.6,6
+833,2025-06-23,Mumbai,Urban Tadka,Chinese,44,Female,Non-Veg,1152,47,2.6,Card,Arjun,Delivered,4.0,3
+834,2025-06-12,Jaipur,Spice Kitchen,North Indian,43,Female,Non-Veg,1870,23,3.7,Card,Vikas,Delivered,2.2,6
+835,2025-05-24,Bangalore,Royal Biryani,Fast Food,25,Female,Veg,1590,54,4.0,UPI,Karan,Delivered,5.3,5
+836,2025-01-25,Pune,Burger Hub,North Indian,30,Female,Veg,2387,46,4.0,Card,Vikas,Cancelled,9.5,4
+837,2025-01-30,Delhi,Urban Tadka,Italian,35,Female,Non-Veg,806,53,3.7,Card,Karan,Cancelled,6.2,1
+838,2025-05-25,Bangalore,Urban Tadka,Chinese,34,Male,Non-Veg,933,58,4.6,Card,Vikas,Delivered,5.4,5
+839,2025-02-27,Bangalore,Burger Hub,Fast Food,22,Male,Non-Veg,885,27,4.3,Cash,Mohit,Cancelled,10.0,5
+840,2025-04-12,Jaipur,Royal Biryani,Biryani,40,Female,Non-Veg,2159,31,3.7,UPI,Rahul,Cancelled,10.8,6
+841,2025-01-04,Jaipur,Pizza Point,North Indian,37,Female,Veg,155,22,2.6,Cash,Mohit,Delivered,11.0,6
+842,2025-04-20,Bangalore,Pizza Point,Italian,45,Female,Veg,175,18,4.8,Card,Karan,Cancelled,5.9,5
+843,2025-01-30,Jaipur,Spice Kitchen,Biryani,24,Female,Non-Veg,2499,36,4.8,Cash,Vikas,Cancelled,4.8,3
+844,2025-03-12,Pune,Royal Biryani,Italian,23,Male,Non-Veg,1386,35,2.5,UPI,Mohit,Cancelled,14.4,1
+845,2025-03-13,Pune,Chinese Bowl,Biryani,29,Female,Non-Veg,1321,60,2.8,UPI,Aman,Cancelled,10.9,5
+846,2025-04-13,Jaipur,Food Factory,Italian,35,Male,Veg,2409,16,3.0,Cash,Aman,Delivered,7.6,5
+847,2025-01-04,Pune,Chinese Bowl,Chinese,33,Female,Veg,320,45,3.4,Card,Rahul,Cancelled,11.6,1
+848,2025-02-13,Ahmedabad,Food Factory,Italian,32,Male,Non-Veg,1513,15,4.9,Card,Aman,Delivered,9.4,3
+849,2025-03-25,Pune,Urban Tadka,Chinese,36,Female,Non-Veg,1454,38,4.2,Card,Rahul,Cancelled,2.0,4
+850,2025-04-01,Jaipur,Food Factory,Biryani,21,Male,Veg,847,36,3.2,Cash,Aman,Cancelled,8.5,4
+851,2025-05-15,Pune,Urban Tadka,North Indian,35,Female,Non-Veg,541,26,4.2,UPI,Aman,Delivered,5.0,1
+852,2025-05-20,Bangalore,Pizza Point,Biryani,21,Male,Non-Veg,1339,54,2.6,Cash,Arjun,Delivered,13.4,3
+853,2025-02-05,Ahmedabad,Urban Tadka,Italian,25,Female,Veg,1984,22,4.4,Card,Karan,Delivered,12.9,3
+854,2025-04-21,Jaipur,Food Factory,Fast Food,28,Male,Veg,1032,35,2.5,Cash,Mohit,Delivered,13.5,1
+855,2025-03-05,Jaipur,Tandoori Nights,Biryani,31,Female,Veg,827,18,4.3,Card,Mohit,Delivered,12.3,5
+856,2025-06-05,Delhi,Royal Biryani,Italian,18,Female,Non-Veg,2140,42,3.0,UPI,Arjun,Cancelled,7.4,5
+857,2025-05-16,Delhi,Chinese Bowl,Italian,33,Female,Veg,1400,37,3.7,UPI,Mohit,Cancelled,5.2,6
+858,2025-04-17,Bangalore,Spice Kitchen,Fast Food,22,Female,Non-Veg,2450,51,2.7,Card,Arjun,Delivered,11.7,1
+859,2025-01-10,Mumbai,Chinese Bowl,North Indian,39,Female,Veg,442,53,4.9,UPI,Aman,Cancelled,10.9,4
+860,2025-06-28,Jaipur,Tandoori Nights,Chinese,34,Female,Non-Veg,499,36,3.2,Card,Karan,Delivered,6.6,3
+861,2025-04-10,Mumbai,Burger Hub,North Indian,24,Female,Veg,504,40,3.2,Cash,Karan,Cancelled,1.4,2
+862,2025-05-16,Bangalore,Royal Biryani,Chinese,19,Male,Veg,884,34,3.1,Card,Karan,Delivered,6.0,2
+863,2025-03-27,Ahmedabad,Royal Biryani,Italian,33,Male,Veg,649,29,4.3,UPI,Vikas,Cancelled,13.0,2
+864,2025-03-24,Bangalore,Tandoori Nights,Fast Food,34,Female,Non-Veg,657,32,4.5,Cash,Mohit,Cancelled,14.0,2
+865,2025-02-25,Jaipur,Food Factory,North Indian,21,Female,Non-Veg,2214,25,4.4,Card,Karan,Cancelled,8.3,2
+866,2025-04-04,Mumbai,Tandoori Nights,Chinese,29,Female,Veg,820,30,3.6,Card,Aman,Delivered,11.9,2
+867,2025-02-25,Bangalore,Pizza Point,North Indian,25,Female,Veg,2233,30,3.5,Card,Arjun,Cancelled,4.9,2
+868,2025-05-16,Jaipur,Food Factory,North Indian,19,Female,Non-Veg,1931,48,4.4,Cash,Arjun,Cancelled,12.3,1
+869,2025-02-21,Hyderabad,Chinese Bowl,Biryani,41,Male,Veg,1500,36,3.1,Cash,Vikas,Cancelled,5.2,6
+870,2025-02-17,Hyderabad,Pizza Point,Italian,37,Female,Non-Veg,2282,44,3.6,Card,Vikas,Delivered,5.3,5
+871,2025-01-23,Jaipur,Urban Tadka,Fast Food,43,Male,Veg,1299,39,4.1,UPI,Vikas,Cancelled,1.3,2
+872,2025-01-14,Pune,Chinese Bowl,North Indian,26,Male,Non-Veg,1687,53,2.9,UPI,Arjun,Cancelled,6.0,1
+873,2025-06-09,Delhi,Tandoori Nights,North Indian,38,Female,Veg,567,27,4.6,Cash,Arjun,Delivered,9.9,2
+874,2025-04-17,Pune,Urban Tadka,Fast Food,36,Male,Non-Veg,1012,33,4.2,Cash,Rahul,Delivered,9.5,6
+875,2025-04-26,Jaipur,Urban Tadka,Fast Food,37,Female,Non-Veg,1539,44,4.7,UPI,Rahul,Delivered,7.5,2
+876,2025-06-13,Pune,Pizza Point,Fast Food,21,Male,Non-Veg,1213,57,2.7,Card,Karan,Cancelled,6.4,1
+877,2025-04-25,Mumbai,Tandoori Nights,Chinese,36,Female,Non-Veg,1647,42,3.8,Card,Mohit,Cancelled,10.4,6
+878,2025-04-29,Bangalore,Urban Tadka,Fast Food,36,Female,Veg,201,45,3.5,Card,Rahul,Delivered,8.3,6
+879,2025-05-12,Pune,Chinese Bowl,Fast Food,39,Female,Veg,1076,15,4.3,Card,Mohit,Cancelled,6.1,4
+880,2025-03-29,Mumbai,Food Factory,North Indian,43,Female,Veg,1293,40,3.9,Cash,Aman,Delivered,8.5,6
+881,2025-05-17,Jaipur,Tandoori Nights,Fast Food,26,Female,Veg,1484,20,2.8,Card,Mohit,Delivered,6.5,3
+882,2025-01-14,Pune,Pizza Point,North Indian,45,Female,Veg,1995,53,3.1,Card,Aman,Cancelled,2.3,5
+883,2025-03-22,Hyderabad,Food Factory,Italian,27,Female,Non-Veg,923,34,4.7,Cash,Arjun,Delivered,12.4,6
+884,2025-06-06,Mumbai,Chinese Bowl,Italian,37,Male,Veg,176,39,4.1,UPI,Mohit,Delivered,12.7,3
+885,2025-03-29,Jaipur,Burger Hub,Chinese,20,Male,Non-Veg,1956,57,2.7,Card,Karan,Cancelled,4.1,2
+886,2025-05-28,Hyderabad,Urban Tadka,North Indian,41,Female,Veg,1280,23,3.2,Cash,Mohit,Cancelled,6.4,6
+887,2025-05-18,Delhi,Pizza Point,Italian,41,Female,Veg,325,47,4.6,UPI,Vikas,Delivered,3.4,2
+888,2025-01-21,Hyderabad,Royal Biryani,Biryani,36,Female,Non-Veg,1320,47,3.3,UPI,Mohit,Cancelled,2.5,5
+889,2025-01-01,Hyderabad,Food Factory,Fast Food,35,Female,Veg,2268,43,2.5,Card,Rahul,Delivered,12.8,1
+890,2025-04-27,Hyderabad,Urban Tadka,Italian,34,Female,Non-Veg,377,48,4.4,Cash,Rahul,Cancelled,4.7,6
+891,2025-01-21,Bangalore,Royal Biryani,Chinese,32,Male,Veg,502,30,2.7,Cash,Arjun,Delivered,1.5,6
+892,2025-02-22,Jaipur,Urban Tadka,Biryani,36,Female,Veg,514,47,5.0,Cash,Arjun,Delivered,3.4,2
+893,2025-05-11,Hyderabad,Burger Hub,North Indian,42,Male,Veg,2461,21,3.2,UPI,Arjun,Delivered,9.7,6
+894,2025-06-28,Pune,Royal Biryani,Fast Food,20,Female,Veg,1046,40,4.0,Cash,Arjun,Delivered,10.3,2
+895,2025-05-27,Ahmedabad,Urban Tadka,Italian,19,Male,Non-Veg,1075,29,3.1,Cash,Aman,Delivered,13.8,3
+896,2025-01-07,Mumbai,Spice Kitchen,Italian,38,Female,Non-Veg,679,42,3.9,UPI,Rahul,Cancelled,4.3,4
+897,2025-06-09,Ahmedabad,Food Factory,Chinese,31,Male,Non-Veg,1670,28,3.1,Card,Arjun,Delivered,2.3,3
+898,2025-03-17,Bangalore,Spice Kitchen,North Indian,21,Male,Veg,997,52,2.8,Cash,Mohit,Delivered,14.5,3
+899,2025-04-05,Ahmedabad,Pizza Point,North Indian,26,Male,Veg,1348,46,3.9,Card,Karan,Cancelled,13.7,2
+900,2025-02-21,Ahmedabad,Chinese Bowl,Biryani,45,Male,Non-Veg,2046,44,4.5,Cash,Vikas,Delivered,7.9,1
+901,2025-01-17,Hyderabad,Urban Tadka,Fast Food,25,Female,Non-Veg,1050,23,2.5,UPI,Karan,Delivered,10.8,3
+902,2025-01-01,Jaipur,Spice Kitchen,Italian,23,Female,Non-Veg,2109,19,3.3,UPI,Karan,Cancelled,3.4,1
+903,2025-06-12,Pune,Spice Kitchen,Italian,32,Female,Veg,1524,37,3.9,UPI,Aman,Delivered,8.0,4
+904,2025-06-01,Ahmedabad,Spice Kitchen,Biryani,38,Female,Veg,492,24,4.8,Cash,Mohit,Cancelled,3.5,3
+905,2025-06-12,Delhi,Food Factory,Chinese,24,Male,Non-Veg,1154,52,2.7,UPI,Vikas,Delivered,2.2,6
+906,2025-02-06,Bangalore,Tandoori Nights,Chinese,41,Female,Non-Veg,522,18,2.6,Cash,Mohit,Cancelled,11.7,6
+907,2025-02-18,Delhi,Chinese Bowl,Chinese,24,Female,Non-Veg,851,15,4.1,UPI,Mohit,Cancelled,8.1,4
+908,2025-06-17,Ahmedabad,Spice Kitchen,Biryani,23,Male,Veg,225,34,4.0,Card,Aman,Delivered,1.6,1
+909,2025-01-24,Ahmedabad,Urban Tadka,North Indian,24,Female,Veg,1676,31,2.8,UPI,Arjun,Delivered,7.2,4
+910,2025-03-06,Hyderabad,Pizza Point,Fast Food,29,Male,Non-Veg,1915,23,3.5,Card,Aman,Cancelled,2.6,4
+911,2025-01-10,Mumbai,Royal Biryani,Fast Food,18,Male,Veg,2472,47,4.6,UPI,Mohit,Delivered,11.2,2
+912,2025-04-24,Mumbai,Royal Biryani,Fast Food,30,Female,Veg,810,39,4.1,UPI,Vikas,Delivered,10.3,3
+913,2025-01-27,Ahmedabad,Burger Hub,Biryani,43,Male,Non-Veg,1212,37,2.6,Cash,Aman,Delivered,11.0,2
+914,2025-05-03,Hyderabad,Urban Tadka,Chinese,40,Female,Non-Veg,663,52,4.7,UPI,Karan,Delivered,4.2,3
+915,2025-03-26,Pune,Burger Hub,Chinese,36,Female,Veg,2260,43,3.5,UPI,Aman,Delivered,5.9,1
+916,2025-06-16,Bangalore,Burger Hub,Chinese,27,Male,Veg,701,50,3.2,Cash,Vikas,Cancelled,12.2,6
+917,2025-02-11,Ahmedabad,Chinese Bowl,Biryani,29,Male,Veg,1189,20,3.1,Card,Aman,Cancelled,8.8,5
+918,2025-01-09,Ahmedabad,Tandoori Nights,Italian,32,Male,Non-Veg,1759,59,4.4,UPI,Karan,Delivered,10.0,1
+919,2025-01-13,Ahmedabad,Spice Kitchen,Italian,37,Male,Veg,1024,41,4.5,UPI,Rahul,Delivered,2.8,2
+920,2025-05-20,Hyderabad,Chinese Bowl,North Indian,43,Male,Veg,1642,45,4.5,Cash,Aman,Cancelled,11.5,2
+921,2025-03-07,Delhi,Spice Kitchen,Italian,43,Female,Veg,724,60,2.9,UPI,Mohit,Delivered,4.3,4
+922,2025-01-02,Ahmedabad,Tandoori Nights,Biryani,37,Female,Non-Veg,1019,43,3.6,Card,Aman,Delivered,9.6,5
+923,2025-04-13,Hyderabad,Burger Hub,North Indian,22,Male,Veg,443,57,5.0,Cash,Mohit,Delivered,5.5,5
+924,2025-01-22,Pune,Pizza Point,Biryani,30,Female,Non-Veg,1407,32,4.5,Card,Vikas,Delivered,13.6,1
+925,2025-02-20,Bangalore,Pizza Point,Italian,25,Male,Veg,2185,16,4.0,Cash,Arjun,Delivered,1.8,1
+926,2025-02-22,Jaipur,Tandoori Nights,North Indian,40,Male,Veg,1498,17,2.9,UPI,Arjun,Delivered,13.7,1
+927,2025-02-15,Mumbai,Tandoori Nights,Italian,19,Female,Non-Veg,2205,43,3.2,UPI,Arjun,Cancelled,3.5,2
+928,2025-05-21,Pune,Tandoori Nights,North Indian,27,Female,Non-Veg,2131,47,3.6,Cash,Mohit,Delivered,13.5,3
+929,2025-04-28,Mumbai,Chinese Bowl,Chinese,25,Male,Non-Veg,2424,34,4.5,Cash,Mohit,Delivered,4.2,1
+930,2025-04-18,Pune,Urban Tadka,Chinese,41,Male,Non-Veg,1886,51,4.6,Cash,Rahul,Cancelled,7.7,3
+931,2025-03-07,Mumbai,Tandoori Nights,Chinese,38,Female,Veg,617,25,4.4,Card,Aman,Delivered,4.4,1
+932,2025-03-26,Hyderabad,Spice Kitchen,Fast Food,19,Male,Veg,1229,31,2.9,Card,Arjun,Cancelled,13.1,1
+933,2025-03-11,Jaipur,Food Factory,Biryani,21,Female,Non-Veg,539,21,2.5,Card,Rahul,Cancelled,3.6,3
+934,2025-03-17,Mumbai,Food Factory,Chinese,40,Female,Non-Veg,711,35,3.8,Cash,Mohit,Cancelled,11.0,2
+935,2025-04-30,Mumbai,Spice Kitchen,Biryani,30,Female,Non-Veg,825,50,2.8,Card,Aman,Delivered,3.8,5
+936,2025-04-28,Bangalore,Royal Biryani,Chinese,30,Female,Non-Veg,160,22,4.3,UPI,Vikas,Delivered,4.3,3
+937,2025-01-08,Bangalore,Urban Tadka,Fast Food,20,Male,Veg,1938,48,3.5,Cash,Rahul,Delivered,10.9,2
+938,2025-06-19,Delhi,Tandoori Nights,Italian,33,Female,Veg,1933,30,3.5,UPI,Rahul,Delivered,4.5,3
+939,2025-03-19,Bangalore,Urban Tadka,Biryani,30,Female,Veg,1550,35,3.8,UPI,Karan,Cancelled,10.5,4
+940,2025-06-17,Hyderabad,Chinese Bowl,Fast Food,37,Male,Veg,1641,36,3.2,Cash,Arjun,Cancelled,7.6,2
+941,2025-06-05,Pune,Spice Kitchen,Biryani,38,Male,Veg,2149,35,4.6,Cash,Vikas,Cancelled,7.4,4
+942,2025-01-23,Mumbai,Spice Kitchen,North Indian,34,Male,Non-Veg,540,43,4.7,UPI,Mohit,Cancelled,14.7,5
+943,2025-01-07,Jaipur,Urban Tadka,North Indian,21,Male,Non-Veg,985,25,3.5,Cash,Rahul,Delivered,15.0,5
+944,2025-02-24,Mumbai,Spice Kitchen,Biryani,24,Male,Veg,1003,30,3.1,Cash,Aman,Delivered,7.2,2
+945,2025-03-03,Bangalore,Royal Biryani,Fast Food,31,Male,Veg,1575,18,3.3,Cash,Aman,Delivered,10.4,1
+946,2025-03-21,Bangalore,Food Factory,Biryani,41,Female,Non-Veg,2374,42,4.0,Card,Aman,Cancelled,3.2,2
+947,2025-05-14,Mumbai,Urban Tadka,Italian,30,Male,Veg,967,20,3.8,Card,Karan,Cancelled,7.3,2
+948,2025-03-11,Delhi,Spice Kitchen,Italian,29,Female,Non-Veg,492,27,3.0,Cash,Karan,Delivered,12.9,4
+949,2025-03-05,Mumbai,Food Factory,Chinese,43,Male,Veg,2057,32,3.6,Cash,Arjun,Cancelled,4.1,1
+950,2025-04-09,Delhi,Food Factory,Biryani,35,Male,Veg,1811,32,4.5,Card,Vikas,Delivered,14.9,3
+951,2025-05-04,Bangalore,Spice Kitchen,Fast Food,35,Female,Veg,2250,49,4.8,Card,Karan,Delivered,11.2,2
+952,2025-02-27,Pune,Tandoori Nights,Italian,43,Female,Non-Veg,1714,59,3.7,Card,Mohit,Cancelled,14.8,3
+953,2025-06-23,Hyderabad,Food Factory,Fast Food,32,Female,Non-Veg,989,32,4.3,UPI,Vikas,Delivered,11.8,5
+954,2025-03-08,Hyderabad,Tandoori Nights,Chinese,20,Female,Non-Veg,448,42,3.6,Cash,Vikas,Delivered,11.2,6
+955,2025-04-08,Bangalore,Food Factory,Italian,26,Male,Non-Veg,2461,24,4.4,Cash,Aman,Delivered,3.6,4
+956,2025-05-06,Pune,Spice Kitchen,Fast Food,44,Male,Non-Veg,299,51,4.5,UPI,Arjun,Cancelled,10.4,6
+957,2025-06-03,Bangalore,Tandoori Nights,Italian,21,Female,Veg,1202,56,3.2,Card,Rahul,Delivered,10.8,6
+958,2025-01-07,Mumbai,Urban Tadka,Biryani,38,Female,Non-Veg,1795,57,3.7,Cash,Mohit,Delivered,11.9,3
+959,2025-03-04,Ahmedabad,Pizza Point,Chinese,21,Female,Veg,1405,33,2.6,Card,Rahul,Delivered,11.6,3
+960,2025-02-20,Hyderabad,Pizza Point,Biryani,18,Female,Veg,1521,36,3.1,Cash,Mohit,Cancelled,9.3,2
+961,2025-03-28,Jaipur,Burger Hub,North Indian,32,Male,Veg,1961,27,4.6,UPI,Rahul,Delivered,12.4,1
+962,2025-05-23,Ahmedabad,Food Factory,Biryani,45,Male,Non-Veg,974,26,3.0,UPI,Karan,Delivered,8.7,5
+963,2025-06-18,Bangalore,Spice Kitchen,Fast Food,34,Male,Non-Veg,525,25,3.7,Card,Vikas,Delivered,5.2,1
+964,2025-04-28,Pune,Spice Kitchen,Chinese,39,Female,Non-Veg,2421,27,4.4,Cash,Aman,Delivered,5.8,2
+965,2025-01-10,Ahmedabad,Tandoori Nights,Biryani,23,Male,Veg,2201,28,3.3,UPI,Arjun,Delivered,9.1,2
+966,2025-02-21,Jaipur,Spice Kitchen,North Indian,36,Female,Non-Veg,2437,27,4.2,Cash,Rahul,Delivered,8.0,5
+967,2025-02-07,Pune,Pizza Point,North Indian,43,Male,Veg,646,30,3.4,Cash,Karan,Delivered,14.1,4
+968,2025-02-07,Pune,Royal Biryani,Fast Food,45,Female,Non-Veg,1163,15,3.5,Card,Arjun,Cancelled,12.2,6
+969,2025-01-22,Bangalore,Burger Hub,Fast Food,41,Male,Veg,2425,52,4.2,Cash,Mohit,Delivered,7.9,3
+970,2025-04-17,Delhi,Urban Tadka,Biryani,30,Female,Non-Veg,1676,29,4.0,UPI,Karan,Cancelled,8.9,5
+971,2025-04-28,Ahmedabad,Chinese Bowl,North Indian,24,Male,Veg,2197,45,4.1,UPI,Aman,Cancelled,2.3,1
+972,2025-02-02,Pune,Spice Kitchen,Chinese,24,Female,Veg,208,46,3.4,Cash,Arjun,Delivered,10.3,2
+973,2025-06-08,Hyderabad,Chinese Bowl,Italian,33,Male,Veg,1613,58,3.9,Card,Rahul,Cancelled,1.7,6
+974,2025-01-10,Delhi,Food Factory,Fast Food,31,Male,Non-Veg,1264,46,3.7,UPI,Mohit,Cancelled,9.0,5
+975,2025-06-22,Jaipur,Burger Hub,Biryani,23,Male,Non-Veg,340,30,3.3,Card,Karan,Delivered,10.1,5
+976,2025-05-30,Bangalore,Tandoori Nights,Fast Food,28,Female,Non-Veg,796,55,4.1,Card,Karan,Delivered,4.5,6
+977,2025-01-05,Jaipur,Chinese Bowl,Italian,21,Male,Veg,1892,55,2.8,UPI,Vikas,Cancelled,9.7,3
+978,2025-05-09,Mumbai,Urban Tadka,Italian,28,Male,Veg,974,29,3.7,Cash,Vikas,Delivered,2.1,5
+979,2025-06-22,Ahmedabad,Tandoori Nights,Italian,24,Female,Veg,1521,38,5.0,Cash,Karan,Delivered,14.2,6
+980,2025-03-14,Mumbai,Chinese Bowl,North Indian,42,Female,Non-Veg,1310,17,3.6,UPI,Mohit,Cancelled,13.4,6
+981,2025-06-12,Bangalore,Food Factory,Chinese,45,Male,Veg,1497,50,4.5,Cash,Arjun,Cancelled,11.8,3
+982,2025-05-12,Delhi,Burger Hub,Fast Food,45,Male,Non-Veg,806,28,3.8,Cash,Mohit,Cancelled,13.7,2
+983,2025-02-09,Bangalore,Pizza Point,Fast Food,41,Female,Veg,201,39,2.8,UPI,Rahul,Cancelled,11.2,2
+984,2025-02-19,Bangalore,Tandoori Nights,North Indian,34,Female,Veg,624,30,3.7,Card,Vikas,Delivered,10.1,5
+985,2025-04-25,Pune,Tandoori Nights,Biryani,31,Male,Non-Veg,854,60,4.1,Cash,Mohit,Cancelled,4.2,6
+986,2025-05-07,Bangalore,Royal Biryani,North Indian,42,Male,Veg,1201,44,3.8,UPI,Arjun,Delivered,6.9,3
+987,2025-04-09,Delhi,Spice Kitchen,Italian,42,Female,Veg,640,28,3.8,Cash,Rahul,Cancelled,14.0,6
+988,2025-03-08,Jaipur,Urban Tadka,North Indian,29,Female,Veg,1051,56,4.2,Card,Rahul,Cancelled,11.2,5
+989,2025-04-19,Mumbai,Food Factory,Fast Food,28,Female,Veg,1667,35,3.2,Card,Mohit,Delivered,1.8,1
+990,2025-01-29,Pune,Chinese Bowl,Chinese,34,Female,Non-Veg,656,58,4.7,UPI,Arjun,Cancelled,4.6,1
+991,2025-05-17,Mumbai,Burger Hub,North Indian,33,Male,Veg,524,29,4.8,UPI,Karan,Cancelled,14.3,3
+992,2025-05-08,Ahmedabad,Royal Biryani,Fast Food,23,Male,Non-Veg,2367,48,3.1,Cash,Mohit,Delivered,2.1,3
+993,2025-03-22,Ahmedabad,Burger Hub,Chinese,38,Male,Veg,279,28,2.8,UPI,Vikas,Cancelled,2.0,6
+994,2025-06-27,Delhi,Burger Hub,North Indian,22,Female,Veg,1574,45,4.5,Cash,Aman,Delivered,1.1,5
+995,2025-04-10,Pune,Pizza Point,North Indian,44,Female,Veg,1278,45,4.4,UPI,Mohit,Cancelled,11.5,6
+996,2025-01-03,Ahmedabad,Food Factory,Italian,23,Male,Veg,213,19,4.2,Card,Rahul,Delivered,12.9,4
+997,2025-05-24,Hyderabad,Food Factory,Italian,34,Male,Non-Veg,200,41,4.1,Cash,Aman,Cancelled,12.1,5
+998,2025-04-19,Pune,Burger Hub,Fast Food,32,Male,Veg,1477,30,3.7,UPI,Arjun,Cancelled,4.9,3
+999,2025-03-10,Pune,Royal Biryani,Biryani,21,Male,Non-Veg,369,36,3.2,Card,Rahul,Cancelled,13.9,3
+1000,2025-01-17,Hyderabad,Urban Tadka,Biryani,44,Male,Non-Veg,2472,42,4.7,Card,Mohit,Cancelled,11.5,4
